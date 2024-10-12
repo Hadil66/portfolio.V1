@@ -1,0 +1,42 @@
+:root {
+    /* colours */
+    --dark: #0A0908;
+    --light: #fff;
+    --medium-light: #EAE0D5;
+    --secundary-light: #C6AC8F;
+    --secundary-dark: #22333B;
+    --pop-of-colour: #BC2C3D;
+
+    /* font */
+    --h1-size: 4em;
+    --h2-size: 2em;
+    --h3-size: 1.5em;
+    --p-size: 1em;
+
+    /* margin & padding */
+    --reg-space: 1em;
+    --s-padding: 0.5em;
+
+
+    /* radius */
+    --s-radius: 8px;
+}
+
+@font-face {
+    font-family: 'Cinzel';
+    src: url(fonts/Cinzel-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Didact gothic';
+    src: url(fonts/DidactGothic-Regular.ttf);
+}
+
+html {
+    background-color: var(--secundary-dark);
+}
+
+h1, h2, h3, p, a, li {
+    color: var(--medium-light);
+    font-family: 'Didact gothic';
+}

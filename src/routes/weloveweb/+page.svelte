@@ -1,4 +1,5 @@
 <h1>We love web</h1>
+<section>
 <article>
   <h2>Isha Gast</h2>
   <p>20 oktober 2023</p>
@@ -577,3 +578,25 @@
     <li>Be ready to spend a lot of time on it</li>
   </ul>
 </article>
+</section>
+<style>
+  section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  article {
+    background: rgba(10, 9, 8, 0.5);
+    padding: var(--reg-space);
+    border-radius: var(--s-radius);
+    margin: var(--reg-space);
+    width: 27em;
+    height: max-content;
+  }
+
+  a {
+    color: var(--pop-of-colour);
+  }
+</style>
