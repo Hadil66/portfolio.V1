@@ -37,7 +37,7 @@
         justify-content: center;
     }
 
-    a:hover {
+    a:hover, a:focus {
         color: var(--dark);
         border: none;
         box-shadow: 0 3px 10px var(--dark);
