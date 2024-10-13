@@ -74,7 +74,7 @@
 </article>
 
 <article>
-  <h2>Julia Miocen</h2>
+  <h2>Julia Miocene</h2>
   <p>CSS</p>
   <p>15 december 2023</p>
     <p>
@@ -249,35 +249,17 @@
   <h3>How to indieweb:</h3>
   <ol>
     <li>domeinnaam</li>
-    <!-- HIER EVEN NAAR KIJKEN -->
-    <li>
-      Eigen site maken en online zetten:
-      <pre><code> -<span class="ruby"> basic GitHub 
-            </span> -<span class="ruby"> Hosting provider 
-            </span> -<span class="ruby"> Self hosted (raspberry pi)(port <span
-              class="hljs-number">443</span
-            >)</span
-          >
-            </code></pre>
-    </li>
+    <li>Eigen site maken en online zetten: basic github -&gt; hosting provider -&gt; self hosted (raspberry pi)</li>
   </ol>
   <h3>Digital Gardening inspo:</h3>
   <ul>
-    <li><a href="https://ambient.institute/">https://ambient.institute/</a></li>
-    <li><a href="https://ecologies.online/">https://ecologies.online/</a></li>
-    <li><a href="https://eva.town/">https://eva.town/</a></li>
-    <li>
-      <a href="http://o-p-h-e-l-i-a-you.live/">http://o-p-h-e-l-i-a-you.live/</a
-      >
-    </li>
-    <li><a href="https://www.connie.surf/">https://www.connie.surf/</a></li>
-    <li><a href="https://benlacroix.com/">https://benlacroix.com/</a></li>
-    <li>
-      <a
-        href="https://thecreativeindependent.com/essays/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/"
-        >https://thecreativeindependent.com/essays/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/</a
-      >
-    </li>
+    <li><a href="https://ambient.institute/">Ambient Institute</a></li>
+    <li><a href="https://ecologies.online/">Ecologies</a></li>
+    <li><a href="https://eva.town/">Eva Town</a></li>
+    <li><a href="http://o-p-h-e-l-i-a-you.live/">Ophelia</a></li>
+    <li><a href="https://www.connie.surf/">Connie Surf Index</a></li>
+    <li><a href="https://benlacroix.com/">Ben LaCroix</a></li>
+    <li><a href="https://thecreativeindependent.com/essays/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/">The Creative Independent</a></li>
   </ul>
 </article>
 
@@ -566,8 +548,10 @@
     <li>Engage the user</li>
     <li>Solve design and technical challenges</li>
   </ul>
-  <a href="http://vita.com">vita.com</a>
-  <a href="http://lifeworld.wetransfer.com">lifeworld.wetransfer.com</a>
+  <ul>
+    <li><a href="http://vita.com">vita.com</a></li>
+    <li><a href="http://lifeworld.wetransfer.com">lifeworld.wetransfer.com</a></li>
+  </ul>
   <p><strong>Conclusion</strong></p>
   <ul>
     <li>
@@ -580,6 +564,10 @@
 </article>
 </section>
 <style>
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
   section {
     display: flex;
     flex-direction: row;
@@ -592,11 +580,28 @@
     padding: var(--reg-space);
     border-radius: var(--s-radius);
     margin: var(--reg-space);
-    width: 27em;
+    width: 19em;
     height: max-content;
   }
 
   a {
     color: var(--pop-of-colour);
+    text-wrap: wrap;
+  }
+
+  article:nth-of-type(6) ul:nth-of-type(4) li::marker, article:nth-of-type(12) ul:nth-of-type(2) li::marker{
+    color: var(--pop-of-colour);
+  }
+
+  @media (min-width: 550px) {
+    article {
+      width: 25em;
+    }
+  }
+
+  @media (min-width: 750px) {
+    article {
+      width: 30em;
+    }
   }
 </style>
