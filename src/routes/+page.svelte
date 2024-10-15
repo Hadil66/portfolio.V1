@@ -1,5 +1,6 @@
 <script>
-    import Weloveweb from "./weloveweb/+page.svelte";
+    import weloveweb from "./weloveweb/+page.svelte";
+    import learningjournal from "./learningjournal/+page.svelte"
 </script>
 
 <section>
@@ -17,14 +18,11 @@
         gap: var(--reg-space);
     }
 
-    h1, h2, h3, p, a {
-        color: var(--medium-light);
-        font-family: 'Didact gothic';
-    }
-
     h1 {
-        font-family: 'Cinzel';
+        font-family: 'Rosemode';
         font-size: var(--h1-size);
+        text-transform: uppercase;
+        font-weight: 200;
     }
 
     a {

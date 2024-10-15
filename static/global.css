@@ -23,8 +23,8 @@
 }
 
 @font-face {
-    font-family: 'Cinzel';
-    src: url(fonts/Cinzel-VariableFont_wght.ttf);
+    font-family: 'Rosemode';
+    src: url(fonts/Rosemode.ttf);
 }
 
 @font-face {
@@ -36,7 +36,7 @@ html {
     background-color: var(--secundary-dark);
 }
 
-h1, h2, h3, p, a, li {
+h1, h2, h3, p, a, li, details, summary {
     color: var(--medium-light);
     font-family: 'Didact gothic';
 }
