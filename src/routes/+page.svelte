@@ -1,7 +1,10 @@
 <script>
     import weloveweb from "./weloveweb/+page.svelte";
     import learningjournal from "./learningjournal/+page.svelte"
+    import Themetoggle from "../lib/Themetoggle.svelte";
 </script>
+
+<Themetoggle />
 
 <section>
     <h1> Portfolio</h1>

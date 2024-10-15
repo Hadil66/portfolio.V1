@@ -5,7 +5,7 @@
     --medium-light: #EAE0D5;
     --secundary-light: #C6AC8F;
     --secundary-dark: #22333B;
-    --pop-of-colour: #BC2C3D;
+    --pop-of-colour: #BC2C3D;    
 
     /* font */
     --h1-size: 4em;
@@ -39,4 +39,9 @@ html {
 h1, h2, h3, p, a, li, details, summary {
     color: var(--medium-light);
     font-family: 'Didact gothic';
+}
+
+button {
+    background: none;
+    cursor: pointer;
 }
