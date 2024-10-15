@@ -1,3 +1,5 @@
+<h1>Learning Journal</h1>
+
 <!-- SPRINT 13 -->
 <details>
     <summary>Sprint 13 Your Tribe For Life</summary>
@@ -58,7 +60,7 @@
                 <p><a href="https://github.com/user-attachments/assets/d4f8040b-762e-4ddf-a700-c8b995fafb9d">https://github.com/user-attachments/assets/d4f8040b-762e-4ddf-a700-c8b995fafb9d</a></p>
                     <article>
                         <!-- <div>
-                            <h1>{data.person.name} {data.person.surname}</h1>
+                            <h2>{data.person.name} {data.person.surname}</h2>
                             <div class="links">
                             <a href="{data.person.website}">
                                 <svg id="github" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 30 30">
@@ -204,6 +206,7 @@
                 </ul>            
         </details>
 </details>
+
 <!-- SPRINT 14 -->
 <details>
     <summary>Sprint 14 Lose Your Head</summary>
@@ -366,7 +369,7 @@
             &lt;/script&gt;
     
             &lt;input bind:value={name} /&gt;
-            &lt;h1&gt;Hello {name}!&lt;/h1&gt;
+            &lt;h2&gt;Hello {name}!&lt;/h2&gt;
          -->
         <p>$: maakt iets reactive, in plaats van let.</p>
     
@@ -534,10 +537,9 @@
     </details>
 </details>
 
-
- <!-- SPRINT 15 -->
+<!-- SPRINT 15 -->
 <details>
-    <summary><h1>Sprint 15 Choices, Choices, Choices</h1></summary>
+    <summary>Sprint 15 Choices, Choices, Choices</summary>
     In deze sprint ligt de focus op het maken van onderbouwde keuzes voor de frameworks, tools en workflow die je kunt gebruiken voor je project
     <!-- week 7 -->
     <details>
@@ -558,4 +560,31 @@
         ...
     </details>
 </details>
-    
+
+
+<style>
+    section {
+        display: flex;
+        justify-content: center;
+    }
+
+    details {
+        border: solid var(--medium-light) 1px;
+        border-radius: var(--s-radius);
+        cursor: pointer;
+        margin: var(--reg-space);
+        max-width: 100vw;
+        min-width: 10em;
+        padding: var(--reg-space);
+    }
+
+    summary {
+        font-size: 1.5em;
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+    }
+
+</style>
