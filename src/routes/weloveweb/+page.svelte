@@ -37,36 +37,36 @@
     <p><strong>Architectuur:</strong></p>
     <ul>
       <li>CSS-componenten met voorspelbare namen</li>
-      <li>Designtokens -&gt; JSON</li>
+      <li>Designtokens → JSON</li>
       <li>Web componenten waar mogelijk is</li>
       <li>Framework componenten waar het handig is</li>
       <li>Documentatie in Markdown</li>
       <li>Storybooks met visuele regressie test</li>
     </ul>
     <p>
-      CSS met BEM -&gt; voorspelbare namen (bekende webstandaard) Samenwerking:
+      CSS met BEM → voorspelbare namen (bekende webstandaard) Samenwerking:
       Vendor prefix voor class names
     </p>
     <p><strong>CSS variables:</strong></p>
     <ul>
       <li>Namen volgens BEM</li>
       <li>
-        Geen dubbel underscore of koppeltekens; -&gt; klein risico op
+        Geen dubbel underscore of koppeltekens; → klein risico op
         onduidelijkheid
       </li>
     </ul>
     <p><strong>Design tokens (iedereen een eigen stijl en design):</strong></p>
     <ul>
-      <li>Huisstijl tokens -&gt; kleur, font, etc</li>
-      <li>Algemene tokens -&gt; interactie kleuren, font-family, etc</li>
-      <li>Component tokens -&gt; border-kleur, achtergrond</li>
+      <li>Huisstijl tokens → kleur, font, etc</li>
+      <li>Algemene tokens → interactie kleuren, font-family, etc</li>
+      <li>Component tokens → border-kleur, achtergrond</li>
     </ul>
     <p>
-      JSON -&gt; Een bron van waarheid voor code en design. Figma -&gt; Github
-      -&gt; Style dictionary -&gt; CSS
+      JSON → Een bron van waarheid voor code en design. Figma → Github
+      → Style dictionary → CSS
     </p>
     <p>
-      Toegankelijkheid voor componenten -&gt; accessibility tree testing met
+      Toegankelijkheid voor componenten → accessibility tree testing met
       @testing-library
     </p>
   </article>
@@ -77,7 +77,7 @@
     <p>
       Je moet nadenken over de animatie, hoe deze beweegt. Het is niet alleen
       technisch. Ook moet je nadenken over de responsiveness. Geschiedenis: Het
-      begon bij stopmotion, -&gt; toen kwam technologie -&gt; in 1996 werd CSS
+      begon bij stopmotion, → toen kwam technologie → in 1996 werd CSS
       uitgebracht. Have fun & learn something new! No burnout!
     </p>
     <ul>
@@ -186,7 +186,7 @@
     <p>Digital gardening</p>
     <p>15 maart 2024</p>
     <h3>I really love the web…</h3>
-    <p>Anders dan de jaren 90 -&gt; frameworks -&gt; ...</p>
+    <p>Anders dan de jaren 90 → frameworks → ...</p>
     <h3>Digital gardening</h3>
     <ul>
       <li>niet verfijnd of compleet</li>
@@ -246,8 +246,8 @@
     <ol>
       <li>domeinnaam</li>
       <li>
-        Eigen site maken en online zetten: basic github -&gt; hosting provider
-        -&gt; self hosted (raspberry pi)
+        Eigen site maken en online zetten: basic github → hosting provider
+        → self hosted (raspberry pi)
       </li>
     </ol>
     <h3>Digital Gardening inspo:</h3>
@@ -273,11 +273,11 @@
     <h3>Is it a bug or a feature</h3>
     <p><strong>Tech stack</strong></p>
     <ul>
-      <li>Vue nuxt -&gt;</li>
-      <li>Datocms -&gt;</li>
-      <li>Netlify -&gt;</li>
-      <li>Shopify -&gt;</li>
-      <li>Gsap -&gt; motion one</li>
+      <li>Vue nuxt →</li>
+      <li>Datocms →</li>
+      <li>Netlify →</li>
+      <li>Shopify →</li>
+      <li>Gsap → motion one</li>
     </ul>
     <p><strong>Creative developer</strong></p>
     <ul>
@@ -314,11 +314,11 @@
     <p>24 mei 2024</p>
     <h2>Van studeren naar een product met miljoenen gebruikers</h2>
     <p>
-      <strong>Studie CMD</strong> -&gt; human centered multimedia -&gt; Stevens Institute
+      <strong>Studie CMD</strong> → human centered multimedia → Stevens Institute
       of technology
     </p>
     <p>
-      <strong>Workfield</strong> -&gt; Q42, Projecten voor Rijksmuseum en naturalis,
+      <strong>Workfield</strong> → Q42, Projecten voor Rijksmuseum en naturalis,
       Spotify Desktop en Web player
     </p>
     <p>
@@ -340,7 +340,7 @@
     </ul>
     <h3>Baan zoeken</h3>
     <p>
-      <strong>Hoe ga ik hier tussen komen?</strong> -&gt; Goede CV (het kost tijd),
+      <strong>Hoe ga ik hier tussen komen?</strong> → Goede CV (het kost tijd),
       1 CV voor meerdere sollicitaties, en soms is er andere een meer geschikte kandidaat
     </p>
     <h3>Interviews</h3>
@@ -360,15 +360,15 @@
       <li>Gesprek om ervaring en baan te bespreken</li>
       <li>Live coding interview</li>
       <li>
-        Laatste ronde -&gt; 3/4 live coding interviews - system designs
+        Laatste ronde → 3/4 live coding interviews - system designs
         (architectuur van een website te schetsen) - behavioral / values
         interview ( hoe ga je om met conflicten / vragen )
       </li>
     </ul>
     <h3>Je eerste baan</h3>
     <p>
-      Aanbod -&gt; Impostor syndrome -&gt; wat is productief -&gt; tijd nemen =
-      minder vaak oplossing herzien -&gt; tegenslagen
+      Aanbod → Impostor syndrome → wat is productief → tijd nemen =
+      minder vaak oplossing herzien → tegenslagen
     </p>
     <h3>Studie vs werk</h3>
     <ul>
@@ -520,7 +520,7 @@
         Webbureau websites waar alles serieus was. Om die reden zijn eigen
         website (digital garden) gestart.
       </li>
-      <li>Eigen website gestart -&gt; Love nonsense</li>
+      <li>Eigen website gestart → Love nonsense</li>
       <li>
         Hij houdt van achterkanten van schilderijen en van tijd, dit heeft hij
         meerdere keren in zijn design geïmplementeerd.
@@ -556,6 +556,264 @@
       <li>Be open-minded</li>
       <li>Ask yourself what it brings and ask for feedback</li>
       <li>Be ready to spend a lot of time on it</li>
+    </ul>
+  </article>
+  <article>
+    <h2>Talk van Kevin Lewis</h2>
+    <p>Directus</p>
+    <p>16 oktober 2024</p>
+    <p>Back-end with customizable UI to manipulate data, designed to help you go quicker; self-host</p>
+    <p><strong>What do we do?:</strong></p>
+    <ul>
+      <li>How do we help people understand what Directus is and what it&#39;s capable of</li>
+      <li>Community engagement</li>
+      <li>Extensions in the marketplace (built by us and our community)</li>
+    </ul>
+    <p><strong>How do we make money?:</strong></p>
+    <ul>
+      <li>Directus cloud</li>
+      <li>Somewhat open-source</li>
+      <li>Not an OSI license (unless you make more than $5 million a year)</li>
+      <li>Community contributors</li>
+      <li>Support / advisory (for companies)</li>
+      <li>Business Source License</li>
+      <li>Marketplace (in the future)</li>
+    </ul>
+    <p>They work remotely</p>
+    <p>Directus is 20 years old; not in this form</p>
+    <p>Their users will never become their customers</p>
+    <p><strong>How do they gather feedback:</strong></p>
+    <ul>
+      <li>Customer feedback: gathered internally</li>
+      <li>Self-serve user feedback: user feedback</li>
+      <li>community feedback: In Github or on Discord</li>
+    </ul>
+    <p>A project is two sprints, one sprint is a week</p>
+    <h4>Choices</h4>
+    <p>Choices are tradeoffs</p>
+    <p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/4d2d2910-0f35-4885-8674-f6228a3ebfa0/a8078783-91a7-47ba-998b-08024c139fbe/image.png" alt="image.png"></p>
+    <p>Good / cheap / fast diagram → the iron triangle</p>
+    <p>→ You (and your client) can only pick 2 out of the 3</p>
+    <p>Their first focus was good and cheap, now good and fast</p>
+    <p><strong>Perfectionism</strong></p>
+    <ul>
+      <li>Internal program: extension experts, based on sales needs → sometimes time is not worth making the product (not a lot of customers)</li>
+    </ul>
+    <p><strong>Tech stack selection</strong></p>
+    <ul>
+      <li>End-user doesn&#39;t care what library, for instance, you use</li>
+    </ul>
+    <p><strong>Performance vs maintainability</strong></p>
+    <ul>
+      <li>How many users</li>
+      <li>Tech stack choice has an influence</li>
+      <li>Tailwind: CSS utility library that shifts classes and allows you to compose styles → takes time and effort to learn. It saves time in maintenance if you don&#39;t use Tailwind</li>
+    </ul>
+    <p><strong>Velocity vs flexibility</strong></p>
+    <ul>
+      <li>How quick can you build the end-product</li>
+      <li>Creative ability could be restrained but you gain flexibility</li>
+    </ul>
+    <p><strong>Innovation vs reliability</strong></p>
+    <ul>
+      <li>Business has a product; ← put money into it and will make more money back. You need research and development in the long run, which needs money too. ← you need to decide where the money goes (← TRADEOFF)</li>
+    </ul>
+    <p><strong>Artificial intelligence</strong></p>
+    <ul>
+      <li>Is it ethical?</li>
+      <li>The cost: money and accuracy → the risk when AI gets it wrong</li>
+    </ul>
+    <p>→ How accurate does it need to be and who takes the responsibility</p>
+    <p><strong>Directus AI</strong></p>
+    <ul>
+      <li>They took the cautious approach</li>
+      <li>Accuracy, only exists in their automation tool and not in the database</li>
+      <li>Dependency on third-party services (bring your own API key)</li>
+      <li>Cost benefit analysis</li>
+      <li>SWOT analysis</li>
+      <li>Weighted decision matrix</li>
+    </ul>
+    <p><strong>How can you use AI in Directus:</strong></p>
+    <p>Query data, give insights</p>
+    <p><strong>Using Directus</strong></p>
+    <ul>
+      <li>It&#39;s OK as a CMS; but there are better CMS&#39; out there; Directus does more than work as a CMS</li>
+      <li>They lack features for a CMS, they do other things (preview for instance)</li>
+      <li>High quality → therefore not cheap</li>
+      <li>Is a very data-driven CMS, <strong>story block</strong> → highly visual</li>
+      <li>Marketplace is very helpful; add extensions → good balance between cheap and quick</li>
+      <li>Reliability challenge because of contractors</li>
+    </ul>
+    <p><strong>Take-aways</strong></p>
+    <ul>
+      <li>The tech you choose doesn&#39;t matter</li>
+      <li>You&#39;re going to make shitty decisions → just have to own it and learn from it which only can happen over time, don&#39;t beat yourself up</li>
+      <li>Root decisions in user need ← consider their needs before anything</li>
+    </ul>
+    <p><strong>How do you get over imposter syndrome?</strong> </p>
+    <ul>
+      <li>Acknoledge that you do have experience</li>
+      <li>It’s ok not to knwo everything</li>
+      <li><p>Be real about your skills</p>
+      <li><a href="https://yougotthis.io/">You got this</a></li>
+    </ul>
+    <p><strong><a href="https://directus.io/tv/">Directus TV</a></strong></p>
+    <ul>
+      <li>Acces control</li>
+      <li>STK</li>
+      <li>Flows; you can validate etc before the transaction happens</li>
+      <li>Web socket (used for updates) (data goes both ways)</li>
+    </ul>
+
+  </article>
+  <article>
+    <h2>Shyanta Vleugel</h2>
+    <p>Tech lead bij Triple</p>
+    <p>16 oktober 2024</p>
+    <h3>Triple / Part of  <a href="https://www.notion.so/9160909d8c9d4d029905342d3b1476f9?pvs=21">Hypersolid</a></h3>
+    <p> 25 jaar geleden opgericht met 250+ tech en design liefhebbers.</p>
+    <h3>Onze core:</h3>
+    <ul>
+      <li>Development</li>
+      <li>Design</li>
+      <li>Technical Operations</li>
+      <li>Data &amp; Insights</li>
+    </ul>
+    <h3>Cultuur: mooie dingen maken voor leuke mensen</h3>
+    <ul>
+      <li>We delen onze ervaringen, projecten en innovaties met elkaar.</li>
+      <li>We zoeken conferenties op om geinspireerd en up-to-date te blijven.</li>
+      <li>We zijn gek op feestjes, en missen geen moment om er een te vieren!</li>
+    </ul>
+    <h3>Webteam</h3>
+    <ul>
+      <li>React Native / 2021</li>
+      <li>Web /</li>
+      <li>/</li>
+    </ul>
+    <h4>Web</h4>
+    <ul>
+      <li>react / svelte</li>
+      <li>Afhankelijk van type project</li>
+      <li>Bestaat het al? Vaak React → dus blijft react</li>
+      <li>……….</li>
+      <li>……..</li>
+      <li>…….</li>
+    </ul>
+    <h4>SmartTV</h4>
+    <ul>
+      <li>‘Gewoon’ een website</li>
+      <li>Niet zo smart</li>
+      <li>Svelte:<ul>
+      <li>Lightweight</li>
+      <li>Build naar html, javascript en css geen grote bundle files</li>
+      <li>Betere performance</li>
+    </ul>
+    <p><strong>React Native</strong></p>
+    <ul>
+      <li>react basic</li>
+      <li>styling werkt wat anders</li>
+      <li>mogelijkheid tot native componenten inladen / gebruiken</li>
+      <li>data picker / numbered input</li>
+      <li>natvive code (swift / gotlin) kan ook zelf gescreven worden</li>
+      <li>een manier om apps voor beide platformen</li>
+      <li>……..</li>
+    </ul>
+    <h4>Way of working</h4>
+    <ul>
+      <li>Scrum
+        <ul>
+          <li>Daily standup</li>
+          <li>Refinements</li>
+          <li>Retrospectives</li>
+          <li>Sprint review / planning</li>
+          <li>Tech lead / Product owner role</li>
+        </ul>
+      </li>
+      <li>Jira → Ticket management (zoals Trello)</li>
+      <li>Git → Code reviews
+        <ul>
+          <li>2 mensen reviewen en het moet getest worden</li>
+          <li>1 persoon zit niet in het team</li>
+        </ul>
+      </li>
+      <li>Conventional commits</li>
+    </ul>
+    
+    <h4>Tech stack</h4>
+    <p>React → </p>
+    <p>Sveltekit → SmartTV</p>
+    <p>→ HTML, Typpescript, SCSS Sass</p>
+    <p>elke competentiewerkt met dezelfde taal</p>
+    <p>kennissessies zijn belangrijk</p>
+    <p>coding guidelines zijn deelbaar</p>
+    <h4>De verschillen:</h4>
+    <ul>
+      <li>Elk team werkt aan een ander type product</li>
+      <li>Elk product heeft zijn bijzonderheden
+        <ul>
+          <li>Native elementen → React Native</li>
+          <li>Support oude browsers → SmartTV</li>
+        </ul>
+      </li>
+      <li>Elk product heeft andere afhankelijkheden
+        <ul>
+          <li>API</li>
+        </ul>
+      </li>
+    </ul>    
+    <h4>Wat kan invloed hebben op je tech-stack?</h4>
+    <ul>
+      <li>seo performance</li>
+      <li>machines met weinig performance</li>
+      <li>eenmalige website?</li>
+      <li>wens voor animaties (svelte)</li>
+    </ul>
+    <p><strong>Tech tips</strong></p>
+    <ul>
+      <li>Up to date blijven door:
+        <ul>
+          <li>Conferenties</li>
+          <li>Proof of concept: andere tech stack proberen en kijken wat de voor- en nadelen zijn</li>
+          <li>Kennissessies, kennisdeling is erg belangrijk (indicator 3.5.2)</li>
+          <li>Zelf onderzoek doen</li>
+        </ul>
+      </li>
+      <li>What does a developer do?
+        <ul>
+          <li>DRY</li>
+          <li>Componenten handig in React en Svelte
+            <ul>
+              <li>Generiek houden zodat je het vaak kan gebruiken</li>
+              <li>Webcomponenten (zijn het meest zuiver) importeren in SvelteKit</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>    
+  </article>
+  <article>
+    <h2><a href="https://www.dionpieters.dev/">Dion Pieters</a></h2>
+    <p>Creative Developer én docent FDND</p>
+    <p>18 oktober 2024</p>
+    <p><strong>Concept creation</strong></p>
+    <ul>
+      <li>Informatica + CMD gestudeerd in Arnhem</li>
+      <li>Build in amsterdam → afstudeerstage</li>
+      <li>Active theory:
+        <ul>
+          <li>Veel WebGL <li>
+          <li><a href="https://www.powerhouse-company.com/">powerhouse</a></li>
+        </ul>
+      </li>
+      <li>You’re your worst client</li>
+      <li>Voor wie is het?  Wat wil ik laten zien?</li>
+      <li>Als eerst een stijl kiezen</li>
+      <li>Jouw portfolio  is nooit af</li>
+      <li>Site moet animatie hebben</li>
+      <li>baseshape en basetext componenten</li>
+      <li><a href="http://easings.net">Easing functions</a></li>
+      <li>Transitions → nieuwe pagina komt boven op de oude pagina te staan</li>
     </ul>
   </article>
 </section>
