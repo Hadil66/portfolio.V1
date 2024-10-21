@@ -1,11 +1,8 @@
 <script>
     import weloveweb from "./weloveweb/+page.svelte";
-    import learningjournal from "./learningjournal/+page.svelte"
-    import Themetoggle from "../lib/Themetoggle.svelte";
-</script>
-
-<Themetoggle />
-
+    import learningjournal from "./learningjournal/+page.svelte";
+  </script>
+  
 <section>
     <h1> Portfolio</h1>
     <a href="/weloveweb">We love web</a>
@@ -41,8 +38,8 @@
     a:hover, a:focus {
         color: var(--dark);
         border: none;
-        box-shadow: 0 3px 10px var(--dark);
-        background: var(--medium-light);
+        box-shadow: var(--shadow);
+        background: var(--secundary-dark);
     }
 
 </style>

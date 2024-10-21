@@ -2,10 +2,15 @@
     /* colours */
     --dark: #0A0908;
     --light: #fff;
-    --medium-light: #EAE0D5;
+    /* --medium-light: #EAE0D5;
     --secundary-light: #C6AC8F;
     --secundary-dark: #22333B;
-    --pop-of-colour: #BC2C3D;    
+    --pop-of-colour: #BC2C3D;     */
+
+    --secundary-dark: #EF6D99;
+    --pop-of-colour: #A9CD5E;
+    --secundary-light: #F3DCCC;
+    --medium-light: #333;
 
     /* font */
     --h1-size: 4em;
@@ -17,6 +22,8 @@
     --reg-space: 1em;
     --s-padding: 0.5em;
 
+    /* shadow */
+    --shadow:  0 3px 10px rgb(10, 9, 8); 
 
     /* radius */
     --s-radius: 8px;
@@ -33,12 +40,16 @@
 }
 
 html {
-    background-color: var(--secundary-dark);
+    background-color: var(--secundary-light);
 }
 
 h1, h2, h3, p, a, li, details, summary {
     color: var(--medium-light);
     font-family: 'Didact gothic';
+}
+
+h1 {
+    text-shadow: 1px 2px 8px rgba(169,205,94,0.6);
 }
 
 button {
