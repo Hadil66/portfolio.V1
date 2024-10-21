@@ -1,15 +1,30 @@
 <script>
     import weloveweb from "./weloveweb/+page.svelte";
+    import mywork from "./mywork/+page.svelte"
     import learningjournal from "./learningjournal/+page.svelte";
+    import Quote070 from "../lib/Quote070.svelte"
   </script>
-  
-<section>
-    <h1> Portfolio</h1>
-    <a href="/weloveweb">We love web</a>
-    <a href="/mywork">My work</a>
-    <a href="/learningjournal">Learning journal</a>
-</section>
 
+  <!-- <Quote070 /> -->
+<h1> Portfolio</h1>
+<div>
+    <section>
+        <a href="/weloveweb">We love web</a>
+        <a href="/mywork">My work</a>
+        <a href="/learningjournal">Learning journal</a>
+    </section>
+
+    <article>
+        <p>
+            My name is <strong>Hadil Ahmed</strong>,<br>
+            .............................................................<br>
+            .............................................................<br>
+            .............................................................<br>
+            .............................................................
+
+        </p>
+    </article>
+</div>
 <style>
     section {
         display: flex;
@@ -23,6 +38,15 @@
         font-size: var(--h1-size);
         text-transform: uppercase;
         font-weight: 200;
+        display: flex;
+        justify-content: center;
+    }
+
+    div {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
     }
 
     a {
@@ -41,6 +65,32 @@
         box-shadow: var(--shadow);
         background: var(--secundary-dark);
     }
+    
+    article {
+        background: rgb(169, 205, 94 ,0.3);
+        box-shadow: var(--shadow);
+        border-radius: var(--s-radius);
+        cursor: pointer;
+        display: flex;
+        justify-content: center;  
+        align-items: center;  
+        width: 36em;
+    }
 
+    p strong {
+        font-size: var(--h3-size);
+        font-family: 'Rosemode';
+    }
+
+    @media (min-width:750px) {
+        section {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+    }
 </style>
+
+
+
 

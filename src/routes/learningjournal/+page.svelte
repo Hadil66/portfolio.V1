@@ -1154,7 +1154,7 @@
     box-shadow:var(--shadow);
   }
 
-  details:hover h1, h2, h3, p, a, li, details, summary{
+  details:hover h2, h3, p, a, li, details, summary{
     color: var(--dark);
   }
 
