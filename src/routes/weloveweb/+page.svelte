@@ -591,7 +591,7 @@
     <p>A project is two sprints, one sprint is a week</p>
     <h4>Choices</h4>
     <p>Choices are tradeoffs</p>
-    <p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/4d2d2910-0f35-4885-8674-f6228a3ebfa0/a8078783-91a7-47ba-998b-08024c139fbe/image.png" alt="image.png"></p>
+    <img src="/theirontriangle.png" alt="the iron triangle">
     <p>Good / cheap / fast diagram → the iron triangle</p>
     <p>→ You (and your client) can only pick 2 out of the 3</p>
     <p>Their first focus was good and cheap, now good and fast</p>
