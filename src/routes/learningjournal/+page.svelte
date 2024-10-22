@@ -1071,44 +1071,79 @@
           </ul>
         </li>
       </ul>
-      <p>
-        Deze concepten vormen de basis van programmeerstructuren en helpen bij
-        het opbouwen van goed gestructureerde redeneringen in code.
-      </p>
+      <p>Voor front-end ontwikkelaars vormt logica de basis van programmeerstructuren en gebruikersinteracties.</p>
 
-      <h4>Het argumentatieproces</h4>
+      <p><strong>Het argumentatieproces</strong></p>
       <ol>
         <li>
-          <strong>Formuleer een standpunt en selecteer argumenten</strong>
-          <ul>
+          <p>Formuleer een standpunt en selecteer argumenten</p>
+          <ol>
+            <li>Door onderzoek te doen, kun je een weloverwogen standpunt innemen.</li>
+            <li>Bijvoorbeeld: je doet onderzoek naar de tech-stack.</li>
             <li>
-              Als je onderzoek doet, kun je een gefundeerd standpunt innemen.
+              <p><strong>Conclusie:</strong> Je kunt nu een standpunt innemen.</p>
+              <p>Inventariseer vervolgens argumenten die <strong>voor</strong> en <strong>tegen</strong> jouw standpunt spreken. Noteer ze en ken ze eenvoudige variabelen toe (bijv. a, b, c).</p>
             </li>
-            <li>Stel, je doet onderzoek naar een tech-stack.</li>
-          </ul>
-          <p><strong>Daarom</strong></p>
-          <p>
-            Kun je een standpunt formuleren over welke tech-stack het meest
-            geschikt is.
-          </p>
-          <p><strong>Vraag:</strong></p>
-          <p>Wie neemt een standpunt in met betrekking tot de tech-stack?</p>
-          <p>
-            Zodra je een standpunt hebt, inventariseer je de voor- en
-            tegenargumenten. Noteer deze en geef ze eenvoudige variabelen zoals <strong
-              >a</strong
-            >, <strong>b</strong>, <strong>c</strong>, etc.
-          </p>
+          </ol>
         </li>
+
         <li>
-          <strong>Argumentatieschema</strong>
-          <p>
-            Gebruik een schema om je argumenten duidelijk te structureren. Dit
-            kan helpen om je standpunt overzichtelijk te presenteren en te
-            verdedigen.
-          </p>
+          <p>Maak een argumentatieschema</p>
+          <p>Zorg ervoor dat je argumenten duidelijk en steekhoudend zijn. Het standpunt moet met overtuigende argumenten onderbouwd worden. Zet de argumenten in een argumentatieschema om overzicht te creëren.</p>
+          <ol>
+            <li>Enkelvoudige argumentatie: A → B</li>
+            <li>Meervoudige argumentatie: A, B → C</li>
+            <li>Nevenschikkende argumentatie: A + B → C</li>
+            <li>Onderschikkende argumentatie: A → B → C</li>
+          </ol>
+        </li>
+
+        <li>
+          <p>Beoordeel de aanvaardbaarheid van de argumenten</p>
+          <p>Het argumentatieschema helpt om te bepalen of jouw onderbouwing sterk is. Stel jezelf drie vragen bij het beoordelen van de argumenten:</p>
+          <ol>
+            <li>Zijn de argumenten feitelijk correct?</li>
+            <li>Zijn de argumenten voldoende uitgewerkt?</li>
+            <li>Ondersteunen de argumenten het standpunt? 
+              <ol>
+                <li>(Zijn er genoeg argumenten? Zijn tegenargumenten weerlegd?)</li>
+              </ol>
+            </li>
+          </ol>
+        </li>
+
+        <li>
+          <p>Werk het argumentatieschema uit</p>
+          <p>Gebruik het schema als leidraad bij het uitwerken van je argumentatie. Houd rekening met de volgende zaken:</p>
+          <ul>
+            <li>Zorg voor een logische volgorde.</li>
+            <li>Plaats het standpunt aan het begin en herhaal het in de conclusie.</li>
+            <li>Gebruik een duidelijke alinea-indeling: elk losstaand argument krijgt een aparte alinea, argumenten die inhoudelijk bij elkaar horen worden in één alinea gegroepeerd.</li>
+            <li>Gebruik signaal- en verbindingswoorden om de samenhang in je tekst te bevorderen. (Zie <strong>Taalwinkel.nl</strong> voor meer tips.)</li>
+          </ul>
         </li>
       </ol>
+
+      <p><strong>De keuze voor een tech-stack: een combinatie van UX, DX en CMX</strong></p>
+      <p>Bij de keuze van een tech-stack spelen verschillende factoren een rol. Zowel de gebruikerservaring (UX), de ontwikkelaarservaring (DX) als de content management ervaring (CMX) zijn van belang.</p>
+
+      <ul>
+        <li><strong>UX</strong>: toegankelijkheid, prestaties, progressieve verbetering, responsiviteit</li>
+        <li><strong>DX</strong>: documentatie, jobopportuniteiten, community, duidelijkheid, DRY-principe</li>
+        <li><strong>CMX</strong>: kracht, kosten, complexiteit, ondersteuning</li>
+      </ul>
+
+      <p><strong>Factoren bij het kiezen van een tech-stack:</strong></p>
+      <ol>
+        <li><strong>Platform:</strong> Waar draait het? Vooral mobiel?</li>
+        <li><strong>Type project:</strong> Campagnesite of document database?</li>
+        <li><strong>Schaalbaarheid:</strong> Hoeveel bezoekers? 1/m of 20.000/s?</li>
+        <li><strong>Prestaties:</strong> Heb je een performance budget? Bijv. max. 2,5 seconden laadtijd?</li>
+        <li><strong>Teamexpertise:</strong> Kennis van ontwikkelaars en klanten?</li>
+        <li><strong>Onderhoud:</strong> Hoeveel tijd kost onderhoud?</li>
+        <li><strong>Kosten:</strong> Wat zijn de kosten?</li>
+      </ol>
+
     </details>
 
     <!-- Week 8 -->
