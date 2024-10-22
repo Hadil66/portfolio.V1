@@ -1125,7 +1125,7 @@
       left: 1em;
       position: fixed;
       top: 1em;
-      background-color: var(--secundary-light);
+      background-color: rgb(243, 220, 204, 0.7);
       border-radius: var(--s-radius);
       padding: calc(var(--reg-space)/2);
    }
@@ -1134,14 +1134,14 @@
     svg {
     left: 1em;
     position: fixed;
-    background-color: var(--secundary-light);
+    background-color: rgb(243, 220, 204, 0.7);
     border-radius: var(--s-radius);
     padding: calc(var(--reg-space)/2);
     top: 4em;
     scale: 1;
     }
   }
-  
+
   h1 {
     color: var(--secundary-dark);
     display: flex;
