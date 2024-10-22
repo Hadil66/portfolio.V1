@@ -39,6 +39,11 @@
     src: url(fonts/DidactGothic-Regular.ttf);
 }
 
+::view-transition-old(root),
+::view-transition-new(root) {
+    animation-duration: 0.5s;
+}
+
 html {
     background-color: var(--secundary-light);
     overflow-x: hidden;

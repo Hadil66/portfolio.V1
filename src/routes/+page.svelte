@@ -67,19 +67,20 @@
     }
     
     article {
+        align-items: center;  
         background: rgb(169, 205, 94 ,0.3);
         box-shadow: var(--shadow);
         border-radius: var(--s-radius);
         cursor: pointer;
         display: flex;
         justify-content: center;  
-        align-items: center;  
         width: 80vw;
     }
 
     p strong {
         font-size: var(--h3-size);
         font-family: 'Rosemode';
+        font-weight: bold;
     }
 
     @media (min-width:750px) {

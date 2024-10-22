@@ -49,7 +49,7 @@
     >
   </li>
   <li>
-    <a href="https://github.com/Hadil66/Label-A-teampagina"><h2>LAbel A</h2></a>
+    <a href="https://github.com/Hadil66/Label-A-teampagina"><h2>Label A</h2></a>
   </li>
   <li>
     <a href="https://github.com/Hadil66/the-client-website"><h2>Funda</h2></a>
@@ -65,14 +65,20 @@
    svg {
       scale: 0.8;
       left: 1em;
-      position: absolute;
+      position: fixed;
       top: 1em;
+      background-color: var(--secundary-light);
+      border-radius: var(--s-radius);
+      padding: calc(var(--reg-space)/2);
    }
 
-  @media (min-width:600px) {
+   @media (min-width:600px) {
     svg {
     left: 1em;
-    position: absolute;
+    position: fixed;
+    background-color: var(--secundary-light);
+    border-radius: var(--s-radius);
+    padding: calc(var(--reg-space)/2);
     top: 4em;
     scale: 1;
     }
@@ -91,19 +97,20 @@
     gap: 1em;
     overflow-x: scroll;
     width: 100vw;
-    padding: 0;
-    margin: 0;
+    padding: calc(var(--reg-space) /100);
+    margin: calc(var(--reg-space) /100);
   }
 
   li {
     align-items: center;
-    background: rgb(239, 109, 153, 0.5);
+    background: rgb(169, 205, 94 ,0.3);
     border-radius: var(--s-radius);
     box-shadow: var(--shadow);
     display: flex;
     flex-direction: column;
     height: 50em;
     list-style-type: "";
+    margin: calc(var(--reg-space) /10);
     min-width: 20em;
     padding: var(--reg-space);
   }

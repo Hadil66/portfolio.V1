@@ -1120,22 +1120,28 @@
 </section>
 
 <style>
-    svg {
+   svg {
       scale: 0.8;
       left: 1em;
-      position: absolute;
+      position: fixed;
       top: 1em;
+      background-color: var(--secundary-light);
+      border-radius: var(--s-radius);
+      padding: calc(var(--reg-space)/2);
    }
 
-  @media (min-width:600px) {
+   @media (min-width:600px) {
     svg {
     left: 1em;
-    position: absolute;
+    position: fixed;
+    background-color: var(--secundary-light);
+    border-radius: var(--s-radius);
+    padding: calc(var(--reg-space)/2);
     top: 4em;
     scale: 1;
     }
   }
-
+  
   h1 {
     color: var(--secundary-dark);
     display: flex;
