@@ -74,7 +74,7 @@
         display: flex;
         justify-content: center;  
         align-items: center;  
-        width: 36em;
+        width: 80vw;
     }
 
     p strong {
@@ -87,6 +87,10 @@
             display: flex;
             flex-direction: row;
             justify-content: center;
+        }
+
+        article {
+            width: 36em;
         }
     }
 </style>

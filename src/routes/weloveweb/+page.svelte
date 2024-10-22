@@ -600,7 +600,7 @@
     <p>A project is two sprints, one sprint is a week</p>
     <h4>Choices</h4>
     <p>Choices are tradeoffs</p>
-    <img src="/theirontriangle.png" alt="the iron triangle" width="400">
+    <img src="/theirontriangle.png" alt="the iron triangle">
     <p>Good / cheap / fast diagram → the iron triangle</p>
     <p>→ You (and your client) can only pick 2 out of the 3</p>
     <p>Their first focus was good and cheap, now good and fast</p>
@@ -828,11 +828,22 @@
 </section>
 
 <style>
-  svg {
+   svg {
+      scale: 0.8;
+      left: 1em;
+      position: absolute;
+      top: 1em;
+   }
+
+  @media (min-width:600px) {
+    svg {
     left: 1em;
     position: absolute;
     top: 4em;
+    scale: 1;
+    }
   }
+
   h1 {
     color: var(--secundary-dark);
     display: flex;
@@ -862,10 +873,16 @@
     color: var(--secundary-dark);
     text-wrap: wrap;
   }
+  img {
+    width: 15em;
+  }
   @media (min-width: 550px) {
     article {
       width: 25em;
     }
+    img {
+    width: 25em;
+  }
   }
   @media (min-width: 750px) {
     article {

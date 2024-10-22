@@ -62,10 +62,20 @@
 </ul>
 
 <style>
-  svg {
+   svg {
+      scale: 0.8;
+      left: 1em;
+      position: absolute;
+      top: 1em;
+   }
+
+  @media (min-width:600px) {
+    svg {
     left: 1em;
     position: absolute;
     top: 4em;
+    scale: 1;
+    }
   }
 
   h1 {
@@ -78,8 +88,11 @@
   ul {
     display: flex;
     flex-wrap: nowrap;
+    gap: 1em;
     overflow-x: scroll;
     width: 100vw;
+    padding: 0;
+    margin: 0;
   }
 
   li {
@@ -91,8 +104,7 @@
     flex-direction: column;
     height: 50em;
     list-style-type: "";
-    margin: var(--reg-space);
-    min-width: 30em;
+    min-width: 20em;
     padding: var(--reg-space);
   }
 

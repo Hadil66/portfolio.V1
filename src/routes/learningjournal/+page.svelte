@@ -1120,16 +1120,28 @@
 </section>
 
 <style>
-  svg {
+    svg {
+      scale: 0.8;
+      left: 1em;
+      position: absolute;
+      top: 1em;
+   }
+
+  @media (min-width:600px) {
+    svg {
     left: 1em;
     position: absolute;
     top: 4em;
+    scale: 1;
+    }
   }
+
   h1 {
     color: var(--secundary-dark);
     display: flex;
     font-size: var(--h1-size);
     justify-content: center;
+    text-align: center;
   }
   section {
     display: flex;
