@@ -71,7 +71,6 @@
         background: rgb(169, 205, 94 ,0.3);
         box-shadow: var(--shadow);
         border-radius: var(--s-radius);
-        cursor: pointer;
         display: flex;
         justify-content: center;  
         width: 80vw;

@@ -96,10 +96,14 @@
     flex-wrap: nowrap;
     gap: 1em;
     overflow-x: scroll;
-    width: 100vw;
-    padding: calc(var(--reg-space) /100);
     margin: calc(var(--reg-space) /100);
+    padding: calc(var(--reg-space) /100);
+    width: 100vw;
   }
+
+  ul::-webkit-scrollbar {
+    display: none;
+}
 
   li {
     align-items: center;
