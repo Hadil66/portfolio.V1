@@ -8,12 +8,6 @@
   <!-- <Quote070 /> -->
 <h1> Portfolio</h1>
 <div>
-    <section>
-        <a href="/weloveweb">We love web</a>
-        <a href="/mywork">My work</a>
-        <a href="/learningjournal">Learning journal</a>
-    </section>
-
     <article>
         <p>
             My name is <strong>Hadil Ahmed</strong>,<br>
@@ -24,6 +18,12 @@
 
         </p>
     </article>
+    <section>
+        <a href="/weloveweb">We love web</a>
+        <a href="/mywork">My work</a>
+        <a href="/learningjournal">Learning journal</a>
+    </section>
+
 </div>
 <style>
     section {
