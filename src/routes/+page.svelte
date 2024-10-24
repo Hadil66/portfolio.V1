@@ -42,7 +42,7 @@
 
     div {
         align-items: center;
-        backdrop-filter: blur(40px);  
+        /* backdrop-filter: blur(40px);   */
         display: flex;
         flex-direction: column;
         gap: 1em;
@@ -98,6 +98,10 @@
 
         article {
             width: 36em;
+        }
+
+        div {
+            backdrop-filter: blur(40px);  
         }
     }
 
