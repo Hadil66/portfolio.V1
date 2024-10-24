@@ -46,6 +46,7 @@
         display: flex;
         flex-direction: column;
         gap: 1em;
+        padding: var(--reg-space);
         position: relative;
         z-index: 66;
       }
