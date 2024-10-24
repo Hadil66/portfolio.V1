@@ -42,7 +42,7 @@
 
     div {
         align-items: center;
-        /* backdrop-filter: blur(40px);   */
+        backdrop-filter: blur(4px);  
         display: flex;
         flex-direction: column;
         gap: 1em;

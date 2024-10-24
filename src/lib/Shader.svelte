@@ -109,10 +109,16 @@
 
 <style>
     canvas {
-        height: 90vh;
+        height: 100vh;
         width: 100vw;
         position: fixed;
         bottom: 0;
         opacity: 0.5;
+    }
+
+    @media ( min-width: 750px) {
+        canvas {
+            height: 90vh;
+        }
     }
 </style>
