@@ -21,43 +21,88 @@
 </a>
 
 <h1>My work</h1>
-<ul>
-  <li>
-    <a href="https://github.com/Hadil66/fabrique"
-      ><h2>Fabrique: Qatar Museums</h2></a
-    >
+<ul class="my-work">
+  <li class="work">
+    <a href="https://github.com/Hadil66/fabrique"><h2>Fabrique: Qatar Museums</h2></a>
+    <img src="/images/fabrique.png" alt="fabrique"> 
+    <ul>
+      <li>Sveltekit</li>
+      <li>Masonry</li>
+      <li>Accessibility</li>
+      <li>Directus</li>
+    </ul>
   </li>
-  <li>
-    <a href="https://github.com/Hadil66/your-tribe-for-life-squad-page"
-      ><h2>Squadpage 2</h2></a
-    >
+  <li class="work">
+    <a href="https://github.com/Hadil66/your-tribe-for-life-squad-page"><h2>Squadpage 2</h2></a>
+    <img src="/images/squadpage2.png" alt="squadpage 2">
+    <ul>
+      <li>Sveltekit</li>
+      <li>Directus</li>
+    </ul>
   </li>
-  <li>
-    <a href="https://github.com/Hadil66/your-tribe-for-life-profile-card"
-      ><h2>Profilecard 2</h2></a
-    >
+  <li class="work">
+    <a href="https://github.com/Hadil66/your-tribe-for-life-profile-card"><h2>Profilecard 2</h2></a>
+    <img src="/images/profilecard2.png" alt="profilecard 2">
+    <ul>
+      <li>Sveltekit</li>
+      <li>JavaScript Animations</li>
+      <li>Directus</li>
+    </ul>
   </li>
-  <li>
+  <li class="work">
     <a href="https://github.com/Hadil66/proof-of-concept"><h2>DPI: TNO</h2></a>
+    <img src="/images/dpi.png" alt="dpi">
+    <ul>
+      <li>EJS</li>
+      <li>NodeJS</li>
+      <li>Express</li>
+      <li>Directus</li>
+    </ul>
   </li>
-  <li>
+  <li class="work">
     <a href="https://github.com/Hadil66/Pleasurable-UI"><h2>Tumi Mundo</h2></a>
+    <img src="/images/tumimundo.png" alt="tumi mundo">
+    <ul>
+      <li>EJS</li>
+      <li>NodeJS</li>
+      <li>Express</li>
+      <li>Directus</li>
+    </ul>
   </li>
-  <li>
-    <a href="https://github.com/Hadil66/connect-your-tribe-profile-card"
-      ><h2>Profilecard 1</h2></a
-    >
+  <li class="work">
+    <a href="https://github.com/Hadil66/connect-your-tribe-profile-card"><h2>Profilecard 1</h2></a>
+    <img src="/images/profilecard1.png" alt="profilecard 1">
+    <ul>
+      <li>EJS</li>
+      <li>NodeJS</li>
+      <li>Express</li>
+    </ul>
   </li>
-  <li>
+  <li class="work">
     <a href="https://github.com/Hadil66/Label-A-teampagina"><h2>Label A</h2></a>
+    <img src="/images/labela.png" alt="label a">
+    <ul>
+      <li>Accessibility</li>
+      <li>Responsive</li>
+      <li>Express</li>
+    </ul>
   </li>
-  <li>
+  <li class="work">
     <a href="https://github.com/Hadil66/the-client-website"><h2>Funda</h2></a>
+    <img src="/images/funda.png" alt="funda">
+    <ul>
+      <li>Accessibility</li>
+      <li>Responsive</li>
+      <li>Micro interaction</li>
+    </ul>
   </li>
-  <li>
-    <a href="https://github.com/Hadil66/your-tribe-squad-page"
-      ><h2>Squadpage 1</h2></a
-    >
+  <li class="work">
+    <a href="https://github.com/Hadil66/your-tribe-squad-page"><h2>Squadpage 1</h2></a>
+    <img src="/images/squadpage1.png" alt="squadpage 1">
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+    </ul>
   </li>
 </ul>
 
@@ -91,7 +136,7 @@
     justify-content: center;
   }
 
-  ul {
+  .my-work {
     display: flex;
     flex-wrap: nowrap;
     gap: 1em;
@@ -101,20 +146,21 @@
     width: 100vw;
   }
 
-  ul::-webkit-scrollbar {
+  .my-work::-webkit-scrollbar {
     display: none;
 }
 
-  li {
+  .work {
     align-items: center;
     background: rgb(169, 205, 94 ,0.3);
     border-radius: var(--s-radius);
     box-shadow: var(--shadow);
     display: flex;
     flex-direction: column;
-    height: 50em;
+    height: 30em;
     list-style-type: "";
-    margin: calc(var(--reg-space) /10);
+    gap: var(--reg-space);
+    margin: var(--reg-space) 0 var(--reg-space) 0;
     min-width: 20em;
     padding: var(--reg-space);
   }
@@ -122,4 +168,15 @@
   a {
     text-decoration: none;
   }
+
+  .work img {
+    width: 400px;
+  }
+
+  .work ul {
+    padding: 0;
+}
+.work li {
+  list-style-type: "";
+}
 </style>
