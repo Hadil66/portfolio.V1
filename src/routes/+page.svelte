@@ -8,6 +8,18 @@
 
   <!-- <Quote070 /> -->
   <Shader />
+
+  <span class="star"></span>
+  <span class="star"></span>
+  <span class="star"></span>
+  <span class="star"></span>
+  <span class="star"></span>
+  <span class="star"></span>
+  <span class="star"></span>
+  <span class="star"></span>
+  <span class="star"></span>
+  <span class="star"></span>
+
   <div>
     <h1> Portfolio</h1>
     <article>
@@ -27,6 +39,10 @@
         flex-direction: column;
         align-items: center;
         gap: var(--reg-space);
+    }
+    
+    .star {
+        display: none;
     }
 
     h1 {
@@ -103,7 +119,88 @@
         div {
             backdrop-filter: blur(40px);  
         }
+        
+        .star {
+            animation: starAnimation 4s infinite ease-in-out;
+            background-color: var(--secundary-dark);
+            clip-path: polygon(46% 50%, 50% 14%, 56% 49%, 88% 54%, 57% 60%, 50% 100%, 45% 61%, 9% 52%);
+            display: block;
+            height: 50px;
+            width: 50px;
+            z-index: 664;
+        }
+    
+        @keyframes starAnimation {
+            0%, 100% { opacity: 0; }
+            50% { opacity: 0.8; }
+        }
+     
+        .star:nth-of-type(3n+3) {
+            background-color: var(--pop-of-colour);
+        }
+    
+        .star:nth-of-type(1) {
+        position: absolute;
+        top: 6em;
+        left: 10em;
     }
+    
+    .star:nth-of-type(2) {
+        position: absolute;
+        top: 3em;
+        right: 4em;
+    }
+    
+    .star:nth-of-type(3) {
+        position: absolute;
+        top: 26em;
+        left: 5em;
+    }
+    
+    .star:nth-of-type(4) {
+        position: absolute;
+        top: 8em;
+        right: 22em;
+    }
+    
+    .star:nth-of-type(5) {
+        position: absolute;
+        top: 27em;
+        left: 38em;
+    }
+    
+    .star:nth-of-type(6) {
+        position: absolute;
+        top: 42em;
+        right: 26em;
+    }
+    
+    .star:nth-of-type(7) {
+        position: absolute;
+        top: 34em;
+        left: 60em;
+    }
+    
+    .star:nth-of-type(8) {
+        position: absolute;
+        top: 33em;
+        right: 33em;
+    }
+    
+    .star:nth-of-type(9) {
+        position: absolute;
+        top: 14em;
+        left: 18em;
+    }
+
+    .star:nth-of-type(10) {
+        position: absolute;
+        top: 40em;
+        left: 13em;
+    }
+    }
+
+
 
 </style>
 
