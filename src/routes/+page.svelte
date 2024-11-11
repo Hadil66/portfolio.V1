@@ -21,7 +21,7 @@
     <h1> Portfolio</h1>
     <article>
         <p>
-            My name is  <strong>Hadil Ahmed</strong> , and I am currently studying Front-end Design and Development at the Hogeschool van Amsterdam
+            My name is  <strong>Hadil</strong> , and I am currently studying Front-end Design and Development at the Hogeschool van Amsterdam
         </p>
     </article>
     <section>
