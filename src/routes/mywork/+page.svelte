@@ -175,8 +175,15 @@
 
   .work ul {
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 .work li {
   list-style-type: "";
+  border: solid 1px;
+  margin: calc(var(--reg-space)/5);
+  padding: calc(var(--reg-space)/3);
+  width: max-content;
+  border-radius: 50px;
 }
 </style>
