@@ -121,7 +121,7 @@
     svg {
     left: 1em;
     position: fixed;
-    background-color: rgb(243, 220, 204, 0.7);
+    background-color: rgb(255, 240, 230, 0.7);
     border-radius: var(--s-radius);
     padding: calc(var(--reg-space)/2);
     top: 4em;
