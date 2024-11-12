@@ -129,7 +129,7 @@
     
         @keyframes starAnimation {
             0%, 60%, 100% { opacity: 0; }
-            50% { opacity: 0.8; }
+            50% { opacity: 0.2; }
         }
      
         .star:nth-of-type(3n+3) {
