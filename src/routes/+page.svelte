@@ -111,10 +111,6 @@
         article {
             width: 36em;
         }
-
-        div {
-            backdrop-filter: blur(40px);  
-        }
         
         .star {
             animation: starAnimation 15s infinite ease-in-out;
