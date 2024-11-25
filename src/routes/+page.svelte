@@ -55,7 +55,6 @@
 
     div {
         align-items: center;
-        backdrop-filter: blur(4px);  
         display: flex;
         flex-direction: column;
         gap: 1em;
@@ -84,7 +83,7 @@
     
     article {
         align-items: center;  
-        background: rgb(169, 205, 94 ,0.6);
+        background: rgb(196, 211, 141);
         box-shadow: var(--shadow);
         border-radius: var(--s-radius);
         display: flex;
