@@ -23,7 +23,7 @@
 <h1>My work</h1>
 <ul class="my-work">
   <li class="work">
-    <a href="https://github.com/Hadil66/fabrique"><h2>Fabrique: Qatar Museums</h2></a>
+    <a href="https://github.com/Hadil66/fabrique" target="_blank"><h2>Fabrique: Qatar Museums</h2></a>
     <img src="/images/fabrique.png" alt="fabrique"> 
     <ul>
       <li>Sveltekit</li>
@@ -33,7 +33,7 @@
     </ul>
   </li>
   <li class="work">
-    <a href="https://github.com/Hadil66/your-tribe-for-life-squad-page"><h2>Squadpage 2</h2></a>
+    <a href="https://github.com/Hadil66/your-tribe-for-life-squad-page" target="_blank"><h2>Squadpage 2</h2></a>
     <img src="/images/squadpage2.png" alt="squadpage 2">
     <ul>
       <li>Sveltekit</li>
@@ -41,7 +41,7 @@
     </ul>
   </li>
   <li class="work">
-    <a href="https://github.com/Hadil66/your-tribe-for-life-profile-card"><h2>Profilecard 2</h2></a>
+    <a href="https://github.com/Hadil66/your-tribe-for-life-profile-card" target="_blank"><h2>Profilecard 2</h2></a>
     <img src="/images/profilecard2.png" alt="profilecard 2">
     <ul>
       <li>Sveltekit</li>
@@ -50,7 +50,7 @@
     </ul>
   </li>
   <li class="work">
-    <a href="https://github.com/Hadil66/proof-of-concept"><h2>DPI: TNO</h2></a>
+    <a href="https://github.com/Hadil66/proof-of-concept" target="_blank"><h2>DPI: TNO</h2></a>
     <img src="/images/dpi.png" alt="dpi">
     <ul>
       <li>EJS</li>
@@ -60,7 +60,7 @@
     </ul>
   </li>
   <li class="work">
-    <a href="https://github.com/Hadil66/Pleasurable-UI"><h2>Tumi Mundo</h2></a>
+    <a href="https://github.com/Hadil66/Pleasurable-UI" target="_blank"><h2>Tumi Mundo</h2></a>
     <img src="/images/tumimundo.png" alt="tumi mundo">
     <ul>
       <li>EJS</li>
@@ -70,7 +70,7 @@
     </ul>
   </li>
   <li class="work">
-    <a href="https://github.com/Hadil66/connect-your-tribe-profile-card"><h2>Profilecard 1</h2></a>
+    <a href="https://github.com/Hadil66/connect-your-tribe-profile-card" target="_blank"><h2>Profilecard 1</h2></a>
     <img src="/images/profilecard1.png" alt="profilecard 1">
     <ul>
       <li>EJS</li>
@@ -79,7 +79,7 @@
     </ul>
   </li>
   <li class="work">
-    <a href="https://github.com/Hadil66/Label-A-teampagina"><h2>Label A</h2></a>
+    <a href="https://github.com/Hadil66/Label-A-teampagina" target="_blank"k><h2>Label A</h2></a>
     <img src="/images/labela.png" alt="label a">
     <ul>
       <li>Accessibility</li>
@@ -88,7 +88,7 @@
     </ul>
   </li>
   <li class="work">
-    <a href="https://github.com/Hadil66/the-client-website"><h2>Funda</h2></a>
+    <a href="https://github.com/Hadil66/the-client-website" target="_blank"><h2>Funda</h2></a>
     <img src="/images/funda.png" alt="funda">
     <ul>
       <li>Accessibility</li>
@@ -97,7 +97,7 @@
     </ul>
   </li>
   <li class="work">
-    <a href="https://github.com/Hadil66/your-tribe-squad-page"><h2>Squadpage 1</h2></a>
+    <a href="https://github.com/Hadil66/your-tribe-squad-page" target="_blank"><h2>Squadpage 1</h2></a>
     <img src="/images/squadpage1.png" alt="squadpage 1">
     <ul>
       <li>HTML</li>
