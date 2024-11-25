@@ -115,10 +115,4 @@
         bottom: 0;
         opacity: 0.5;
     }
-
-    @media ( min-width: 750px) {
-        canvas {
-            height: 100vh;
-        }
-    }
 </style>
