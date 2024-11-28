@@ -25,8 +25,13 @@
         vec3 color2 = vec3(0.937, 0.427, 0.600);  // (#EF6D99)
         vec3 color3 = vec3(0.953, 0.863, 0.800);  // (#F3DCCC)
 
-        vec3 dynamicColor = mix(color1, color2, abs(sin(time + dist * 7.0)));
-        dynamicColor = mix(dynamicColor, color3, abs(cos(time + dist * 3.0)));
+        // Apply a time-based oscillation to the distance calculation
+        float oscillation = sin(time * 0.5 + dist * 5.0);  // Adjusts the speed and direction of oscillation
+        float reverseOscillation = cos(time * 2.0 - dist * 5.0); // Reverse the effect for back and forth movement
+
+        // Mix the colors based on the oscillation
+        vec3 dynamicColor = mix(color1, color2, abs(oscillation));
+        dynamicColor = mix(dynamicColor, color3, abs(reverseOscillation));
 
         gl_FragColor = vec4(dynamicColor, 1.0);
     }
@@ -105,6 +110,7 @@
     });
 </script>
 
+
 <canvas bind:this={canvas}></canvas>
 
 <style>
@@ -113,6 +119,6 @@
         width: 100vw;
         position: fixed;
         bottom: 0;
-        opacity: 0.5;
+        opacity: 0.3;
     }
 </style>
