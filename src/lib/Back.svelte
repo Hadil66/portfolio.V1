@@ -14,7 +14,7 @@
         left: 1em;
         position: fixed;
         top: 1em;
-        background-color: rgb(232, 227, 224, 0.7);
+        background-color: var(--see-through-dark);
         border-radius: var(--s-radius);
         padding: calc(var(--reg-space)/2);
    }
