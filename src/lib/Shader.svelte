@@ -21,9 +21,10 @@
         vec2 uv = -1.0 + 2.0 * gl_FragCoord.xy / resolution.xy;
         float dist = length(uv);
 
-        vec3 color1 = vec3(0.663, 0.804, 0.369);  // (#A9CD5E)
-        vec3 color2 = vec3(0.937, 0.427, 0.600);  // (#EF6D99)
-        vec3 color3 = vec3(0.953, 0.863, 0.800);  // (#F3DCCC)
+        vec3 color1 = vec3(0.902, 0.224, 0.275);  // (#E63946)
+        vec3 color2 = vec3(0.902 * 1.2, 0.224 * 1.2, 0.275 * 1.2);  
+        vec3 color3 = vec3(0.902 * 0.8, 0.224 * 0.8, 0.275 * 0.8);  
+
 
         // Apply a time-based oscillation to the distance calculation
         float oscillation = sin(time * 0.5 + dist * 5.0);  // Adjusts the speed and direction of oscillation

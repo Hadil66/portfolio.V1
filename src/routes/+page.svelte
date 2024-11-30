@@ -2,7 +2,6 @@
     import weloveweb from "./weloveweb/+page.svelte";
     import mywork from "./mywork/+page.svelte"
     import learningjournal from "./learningjournal/+page.svelte";
-    import Quote070 from "../lib/Quote070.svelte"
     import Shader from "../lib/Shader.svelte"
   </script>
 
@@ -25,9 +24,9 @@
         </p>
     </article>
     <section>
-        <a href="/weloveweb">We love web</a>
-        <a href="/mywork">My work</a>
-        <a href="/learningjournal">Learning journal</a>
+        <a href="/weloveweb"><p>We love web</p></a>
+        <a href="/mywork"><p>My work</p></a>
+        <a href="/learningjournal"><p>Learning journal</p></a>
     </section>
 </div>
 <style>
@@ -49,8 +48,8 @@
         font-weight: 200;
         display: flex;
         justify-content: center;
+        text-shadow: 2px 3px 18px var(--dark);
         z-index: 80;
-
     }
 
     div {
@@ -64,8 +63,8 @@
       }
 
     a {
-        background: var(--secundary-light);
-        border: solid var(--medium-light) 1px;
+        background: var(--see-through-dark);
+        border: solid var(--dark) 1px;
         border-radius: var(--s-radius);
         display: flex;
         justify-content: center;
@@ -75,15 +74,18 @@
     }
 
     a:hover, a:focus {
-        color: var(--dark);
         border: none;
         box-shadow: var(--shadow);
-        background: var(--secundary-dark);
+        background: var(--see-through-dark);
+    }
+
+    section a p {
+        padding: 0;
     }
     
     article {
         align-items: center;  
-        background: rgb(196, 211, 141);
+        background: var(--see-through-dark);
         box-shadow: var(--shadow);
         border-radius: var(--s-radius);
         display: flex;
@@ -114,7 +116,7 @@
         
         .star {
             animation: starAnimation 15s infinite ease-in-out;
-            background-color: var(--secundary-dark);
+            background-color: var(--pop-of-colour);
             clip-path: polygon(46% 50%, 50% 14%, 56% 49%, 88% 54%, 57% 60%, 50% 100%, 45% 61%, 9% 52%);
             display: block;
             height: 50px;

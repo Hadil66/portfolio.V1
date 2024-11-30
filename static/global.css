@@ -1,12 +1,17 @@
 :root {
     /* colours */
-    --dark: #0A0908;
-    --light: #fff;
-    --secundary-dark: #EF6D99;
-    --pop-of-colour: #A9CD5E;
-    /* --secundary-light: #F3DCCC; */
-    --secundary-light: #e8e3e0;
-    --medium-light: #333;
+    --dark: #222323;
+    --light: #f7ede2;
+    --pop-of-colour: #e63946;
+
+    /* tertiary colours */
+    --dbl-light-red: #e84550;
+    --light-red: #e73f4b;
+    --dark-red: #b5343e;
+    --dbl-dark-red: #9d313A;
+
+    /* dark met een opacity */
+    --see-through-dark: rgb(34, 35, 35, 0.7);
 
     /* font */
     --h1-size: 4em;
@@ -42,18 +47,18 @@
 
 
 html {
-    background-color: var(--secundary-light);
+    background-color: var(--dark);
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
 
 h1, h2, h3, p, a, li, details, summary {
-    color: var(--medium-light);
+    color: var(--light);
     font-family: 'Didact gothic';
 }
 
 h1 {
-    text-shadow: 1px 2px 8px rgba(169,205,94,0.6);
+    text-shadow: 1px 2px 8px var(--pop-of-colour);
 }
 
 button {
