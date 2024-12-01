@@ -1184,11 +1184,13 @@
 
   details:hover h2, h3, p, a, li, details, summary{
     color: var(--light);
+    transition: 0.2s;
   }
 
   summary {
     font-size: 1.5em;
   }
+  
   a {
     color: var(--light);
     font-weight: bold;

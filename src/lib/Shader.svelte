@@ -116,10 +116,12 @@
 
 <style>
     canvas {
-        height: 100vh;
-        width: 100vw;
-        position: fixed;
         bottom: 0;
+        height: 100vh;
+        left: 0;
         opacity: 0.3;
+        position: fixed;
+        right: 0;
+        width: 100vw;
     }
 </style>
