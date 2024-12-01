@@ -52,12 +52,18 @@ html {
     overflow-x: hidden;
 }
 
+main {
+    backdrop-filter: blur(90px);
+    height: 100%;
+}
+
 h1, h2, h3, p, a, li, details, summary {
     color: var(--light);
     font-family: 'Didact gothic';
 }
 
 h1 {
+    text-align: center;
     text-shadow: 1px 2px 8px var(--pop-of-colour);
 }
 

@@ -13,8 +13,8 @@
         scale: 0.8;
         left: 1em;
         position: fixed;
-        top: 1em;
-        background-color: var(--see-through-dark);
+        top: 0;
+        backdrop-filter: blur(90px);
         border-radius: var(--s-radius);
         padding: calc(var(--reg-space)/2);
         z-index: 128;
@@ -24,7 +24,7 @@
         svg {
             left: 1em;
             position: fixed;
-            background-color: var(--see-through-dark);
+            backdrop-filter: blur(90px);
             border-radius: var(--s-radius);
             padding: calc(var(--reg-space)/2);
             top: 4em;
