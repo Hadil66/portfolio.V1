@@ -1,9 +1,10 @@
 <script>
   import Back from "../../lib/Back.svelte";
+  import Shader from "../../lib/Shader.svelte";
 </script>
 
 <Back />
-
+<Shader />
 <h1>My work</h1>
 <ul class="my-work">
   <li class="work">
@@ -96,6 +97,8 @@
     display: flex;
     font-size: var(--h1-size);
     justify-content: center;
+    position: relative;
+    z-index: 78;
   }
 
   .my-work {
@@ -106,6 +109,7 @@
     margin: calc(var(--reg-space) /100);
     padding: calc(var(--reg-space) /100);
     width: 100vw;
+    z-index: 78;
   }
 
   .my-work::-webkit-scrollbar {
@@ -125,6 +129,7 @@
     margin: var(--reg-space) 0 var(--reg-space) 0;
     min-width: 20em;
     padding: var(--reg-space);
+    z-index: 78;
   }
 
   a {

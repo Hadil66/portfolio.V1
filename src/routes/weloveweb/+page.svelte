@@ -1,9 +1,10 @@
 <script>
   import Back from "../../lib/Back.svelte";
+  import Shader from "../../lib/Shader.svelte";
 </script>
 
 <Back />
-
+<Shader />
 <h1>We love web</h1>
 <section>
   <article>
@@ -831,17 +832,21 @@
     display: flex;
     font-size: var(--h1-size);
     justify-content: center;
+    position: relative;
     text-align: center;
+    z-index: 78;
   }
   h2, h2 a {
     color: var(--light);
     text-decoration: none;
+    z-index: 78;
   }
   section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    z-index: 78;
   }
   article {
     background: var(--see-through-dark);
@@ -851,10 +856,12 @@
     margin: var(--reg-space);
     padding: var(--reg-space);
     width: 19em;
+    z-index: 78;
   }
   a {
     color: var(--pop-of-colour);
     text-wrap: wrap;
+
   }
   img {
     width: 15em;

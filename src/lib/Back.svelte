@@ -17,6 +17,7 @@
         background-color: var(--see-through-dark);
         border-radius: var(--s-radius);
         padding: calc(var(--reg-space)/2);
+        z-index: 128;
    }
 
     @media (min-width:600px) {

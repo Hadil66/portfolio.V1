@@ -17,7 +17,7 @@
 <span class="star"></span>
 
 <section>
-  <h1>Portfolio</h1>
+  <h1>Hadil Ahmed</h1>
   <article >
     <p>
       Hi, I’m Hadil, a Front-end Design and Development student at the
@@ -282,30 +282,29 @@
     article {
         display: grid; 
         gap: 20px;
-        grid-auto-columns: 1fr; 
         grid-template-columns: 1.5fr 0.5fr; 
-        grid-template-rows: 0.5fr 3.5fr; 
+        grid-template-rows: 0 3.5fr; 
         width: max-content;
     }
 
     article p:first-of-type {
+        align-self: start;
         grid-area: 2 / 1 / 3 / 2; 
-        height: 7em;
+        height: 6em;
         width: 40em;
     }
-    
-    
 
     article a:first-of-type {
         align-self: end;
         grid-area: 3 / 1 / 4 / 2;
-        height: 20em;
+        height: 10em;
         width: 40em;
     }
 
     article a:last-of-type {
+        align-self: end;
         grid-area: 2 / 2 / 4 / 3;
-        height: 30em;
+        height: 20em;
         width: 15em;
     }
   }
