@@ -10,10 +10,10 @@
 
   <style>
     svg {
-        scale: 0.8;
-        left: 1em;
+        scale: 0.7;
+        left: 0.5em;
         position: fixed;
-        top: 0;
+        top: 4em;
         backdrop-filter: blur(90px);
         border-radius: var(--s-radius);
         padding: calc(var(--reg-space)/2);
