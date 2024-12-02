@@ -39,8 +39,8 @@
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
           y="0px"
-          width="50"
-          height="50"
+          width="40"
+          height="40"
           viewBox="0 0 80 80"
         >
           <path
@@ -55,8 +55,8 @@
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
           y="0px"
-          width="50"
-          height="50"
+          width="40"
+          height="40"
           viewBox="0 0 80 80"
         >
           <path
@@ -156,7 +156,8 @@
     justify-content: space-between;
     left: 0;
     position: absolute;
-    padding: calc(var(--reg-space) / 2) var(--reg-space) calc(var(--reg-space) / 3) var(--reg-space);
+    /* padding: calc(var(--reg-space) / 2) var(--reg-space) calc(var(--reg-space) / 3) var(--reg-space); */
+    padding: 0 calc(var(--reg-space)/2);
     right: 0;
   }
 
