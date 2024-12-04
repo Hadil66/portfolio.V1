@@ -18,13 +18,49 @@
 
 <section>
   <h1>Hadil Ahmed</h1>
-  <article >
+  <article>
     <p>
       Hi, I’m Hadil, a Front-end Design and Development student at the
       Hogeschool van Amsterdam.
     </p>
-    <a href="/mywork">My work</a>
-    <a href="/weloveweb">We love web</a>
+    <a href="/mywork">
+      <strong>
+        <span>m</span>
+        <span>y</span>
+        <span>w</span>
+        <span>o</span>
+        <span>r</span>
+        <span>k</span>
+      </strong>
+    </a>
+    <a href="/weloveweb">
+      <strong
+        >
+        <span>w</span>
+        <span>e</span>
+        <span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20px"
+            height="20px"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M4.3314 12.0474L12 20L19.6686 12.0474C20.5211 11.1633 21 9.96429 21 8.71405C21 6.11055 18.9648 4 16.4543 4C15.2487 4 14.0925 4.49666 13.24 5.38071L12 6.66667L10.76 5.38071C9.90749 4.49666 8.75128 4 7.54569 4C5.03517 4 3 6.11055 3 8.71405C3 9.96429 3.47892 11.1633 4.3314 12.0474Z"
+              stroke="var(--light)"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+        <span>w</span>
+        <span>e</span>
+        <span>b</span>
+      </strong
+      >
+    </a>
   </article>
 </section>
 
@@ -82,7 +118,8 @@
   }
 
   h1 {
-    font-family: "Rosemode";
+    /* font-family: "Rosemode"; */
+    font-family: "Thernaly";
     font-size: var(--h1-size);
     text-transform: uppercase;
     font-weight: 200;
@@ -104,7 +141,6 @@
 
   article {
     align-items: center;
-
     display: flex;
     flex-direction: column;
     gap: var(--reg-space);
@@ -118,7 +154,6 @@
     border-radius: var(--s-radius);
     display: flex;
     width: 18em;
-
   }
 
   section a {
@@ -134,17 +169,24 @@
 
   section a:hover,
   section a:focus {
+    background: var(--see-through-dark);
     border: none;
     box-shadow: var(--shadow);
-    background: var(--see-through-dark);
-    transition: 0.2s;
+    transition: 0 4s;
   }
 
-       
-  article p, article a {
+  article p,
+  article a {
     padding: calc(var(--reg-space) / 2);
     margin: calc(var(--reg-space) / 2);
-  } 
+  }
+
+  strong {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 
   footer {
     align-items: center;
@@ -156,16 +198,15 @@
     justify-content: space-between;
     left: 0;
     position: absolute;
-    /* padding: calc(var(--reg-space) / 2) var(--reg-space) calc(var(--reg-space) / 3) var(--reg-space); */
-    padding: 0 calc(var(--reg-space)/2);
+    padding: 0 calc(var(--reg-space) / 2);
     right: 0;
   }
 
   footer ul {
+    gap: calc(var(--reg-space) / 2);
     display: flex;
     margin: 0;
     padding: 0;
-    gap: calc(var(--reg-space) / 2);
   }
 
   li {
@@ -178,7 +219,7 @@
 
   footer svg:hover {
     scale: 1.1;
-    transition: 0.2s;
+    transition: 0 4s;
   }
 
   footer a:last-of-type {
@@ -187,7 +228,7 @@
 
   footer a:last-of-type:hover {
     scale: 1.1;
-    transition: 0.2s;
+    transition: 0 4s;
   }
 
   @media (min-width: 750px) {
@@ -273,40 +314,97 @@
   }
 
   @media (min-width: 1000px) {
-    body {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-        
     article {
-        display: grid; 
-        gap: 20px;
-        grid-template-columns: 1.5fr 0.5fr; 
-        grid-template-rows: 0 3.5fr; 
-        width: max-content;
+      display: grid;
+      gap: 20px;
+      grid-template-columns: 1.5fr 0.5fr;
+      grid-template-rows: 0 3.5fr;
+      width: max-content;
     }
 
     article p:first-of-type {
-        align-self: start;
-        grid-area: 2 / 1 / 3 / 2; 
-        height: 6em;
-        width: 40em;
+      align-self: start;
+      grid-area: 2 / 1 / 3 / 2;
+      height: 6em;
+      text-align: center;
+      width: 40em;
     }
 
-    article a:first-of-type {
-        align-self: end;
-        grid-area: 3 / 1 / 4 / 2;
-        height: 10em;
-        width: 40em;
+     article a:first-of-type {
+      align-self: end;
+      grid-area: 3 / 1 / 4 / 2;
+      height: 10em;
+      overflow: hidden;
+      position: relative;
+      width: 40em;
     }
-
     article a:last-of-type {
-        align-self: end;
-        grid-area: 2 / 2 / 4 / 3;
-        height: 20em;
-        width: 15em;
+      align-self: end;
+      grid-area: 2 / 2 / 4 / 3;
+      height: 20em;
+      overflow: hidden;
+      position: relative;
+      width: 15em;
+      }
+      
+    article a:first-of-type strong {
+      font-size: 148px;
+      text-transform: uppercase;
+    }
+
+    article a:last-of-type strong {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      font-size: 118px;
+      text-transform: uppercase;
+      justify-content: center;
+    }
+
+    article a:last-of-type strong svg {
+      width: 72px;
+      height: auto;
+    } 
+
+    @keyframes BiggieSmalls {
+      0% {
+        font-size: 40px;
+        opacity: 0.8;
+      }
+      75% {
+        opacity: 1;
+      }
+      100% {
+        font-size: 170px;
+        opacity: 0.7;
+      }
+    }
+
+
+    strong span {
+      --time: 3s;
+      animation: BiggieSmalls 4s infinite ease-in-out;
+      display: inline-block;
+    }
+
+    article a:first-of-type strong span:nth-of-type(1), article a:last-of-type strong span:nth-of-type(1) {
+      animation-delay: calc(var(--time) / 5 * 0);
+    }
+    article a:first-of-type strong span:nth-of-type(2), article a:last-of-type strong span:nth-of-type(2) {
+      animation-delay: calc(var(--time) / 5 * 1);
+    }
+    article a:first-of-type strong span:nth-of-type(3), article a:last-of-type strong span:nth-of-type(3) {
+      animation-delay: calc(var(--time) / 5 * 2);
+    }
+    article a:first-of-type strong span:nth-of-type(4), article a:last-of-type strong span:nth-of-type(4) {
+      animation-delay: calc(var(--time) / 5 * 3);
+    }
+    article a:first-of-type strong span:nth-of-type(5), article a:last-of-type strong span:nth-of-type(5) {
+      animation-delay: calc(var(--time) / 5 * 4);
+    }
+    article a:first-of-type strong span:nth-of-type(6), article a:last-of-type strong span:nth-of-type(6) {
+      animation-delay: calc(var(--time) / 5 * 5);
     }
   }
 </style>

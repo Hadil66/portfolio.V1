@@ -36,6 +36,11 @@
 }
 
 @font-face {
+    font-family: 'Thernaly';
+    src: url(/fonts/thernaly.ttf);
+}
+
+@font-face {
     font-family: 'Didact gothic';
     src: url(fonts/DidactGothic-Regular.ttf);
 }
