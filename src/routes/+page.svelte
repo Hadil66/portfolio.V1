@@ -370,6 +370,7 @@
     @keyframes BiggieSmalls {
       0% {
         font-size: 40px;
+        font-weight: 100;
         opacity: 0.8;
       }
       75% {
@@ -377,6 +378,7 @@
       }
       100% {
         font-size: 170px;
+        font-weight: 900;
         opacity: 0.7;
       }
     }
