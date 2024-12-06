@@ -5,7 +5,6 @@
   import Shader from "../lib/Shader.svelte";
 </script>
 
-<!-- <Quote070 /> -->
 <Shader />
 
 <span class="star"></span>
@@ -16,52 +15,65 @@
 <span class="star"></span>
 <span class="star"></span>
 
+<header>
+<h1>
+  <div>
+    <span>h</span>
+    <span>a</span>
+    <span>d</span>
+    <span>i</span>
+    <span>l</span>
+  </div>
+  <div>
+    <span>a</span>
+    <span>h</span>
+    <span>m</span>
+    <span>e</span>
+    <span>d</span>
+  </div>
+</h1>
+</header>
 <section>
-  <h1>Hadil Ahmed</h1>
-  <article>
-    <p>
-      Hi, I’m Hadil, a Front-end Design and Development student at the
-      Hogeschool van Amsterdam.
-    </p>
-    <a href="/mywork">
-      <strong>
-        <span>m</span>
-        <span>y</span>
-        <span>w</span>
-        <span>o</span>
-        <span>r</span>
-        <span>k</span>
-      </strong>
-    </a>
-    <a href="/weloveweb">
-      <strong
+  <p>
+    Hi, I’m Hadil, a Front-end Design and Development student at the Hogeschool
+    van Amsterdam.
+  </p>
+  <a href="/mywork">
+    <strong>
+      <span>m</span>
+      <span>y</span>
+      <span>w</span>
+      <span>o</span>
+      <span>r</span>
+      <span>k</span>
+    </strong>
+  </a>
+  <a href="/weloveweb">
+    <strong>
+      <span>w</span>
+      <span>e</span>
+      <span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20px"
+          height="20px"
+          viewBox="0 0 24 24"
+          fill="none"
         >
-        <span>w</span>
-        <span>e</span>
-        <span>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20px"
-            height="20px"
-            viewBox="0 0 24 24"
-            fill="none"
-          >
-            <path
-              d="M4.3314 12.0474L12 20L19.6686 12.0474C20.5211 11.1633 21 9.96429 21 8.71405C21 6.11055 18.9648 4 16.4543 4C15.2487 4 14.0925 4.49666 13.24 5.38071L12 6.66667L10.76 5.38071C9.90749 4.49666 8.75128 4 7.54569 4C5.03517 4 3 6.11055 3 8.71405C3 9.96429 3.47892 11.1633 4.3314 12.0474Z"
-              stroke="var(--light)"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
-        </span>
-        <span>w</span>
-        <span>e</span>
-        <span>b</span>
-      </strong
-      >
-    </a>
-  </article>
+          <path
+            d="M4.3314 12.0474L12 20L19.6686 12.0474C20.5211 11.1633 21 9.96429 21 8.71405C21 6.11055 18.9648 4 16.4543 4C15.2487 4 14.0925 4.49666 13.24 5.38071L12 6.66667L10.76 5.38071C9.90749 4.49666 8.75128 4 7.54569 4C5.03517 4 3 6.11055 3 8.71405C3 9.96429 3.47892 11.1633 4.3314 12.0474Z"
+            stroke="var(--light)"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </span>
+      <span>w</span>
+      <span>e</span>
+      <span>b</span>
+    </strong>
+  </a>
 </section>
 
 <footer>
@@ -86,7 +98,8 @@
       </a>
     </li>
     <li>
-      <a href="https://github.com/Hadil66" target="_blank">
+      <a 
+        href="https://github.com/Hadil66" target="_blank">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
@@ -106,77 +119,152 @@
 </footer>
 
 <style>
+  header {
+    align-items: center;
+    animation: header;
+    animation-range: 0vh 80vh;
+    animation-timeline: scroll();
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 369;
+  }
+
+  @keyframes header {
+    from {
+      font-size: clamp(4em, 15vw, 10em);
+      height: 90vh;
+    }
+    to {
+      height: 10vh;
+      font-size: 1em;
+    }
+  }
+
+  h1 div {
+    display: flex;
+    justify-content: center;
+  }
+
+  h1 {
+    display: flex;
+    font-family: "Thernaly";
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.5em;
+    text-shadow: 2px 3px 18px var(--dark);
+    text-transform: uppercase;
+    width: 100vw;
+    z-index: 80;
+  }
+
+  h1 span {
+    --time: 3s;
+    animation: BiggieSmalls 4s infinite ease-in-out;
+    display: inline-block;
+  }
+
+  h1 div span:nth-of-type(1) {
+    animation-delay: calc(var(--time) / 5 * 0);
+  }
+  h1 div span:nth-of-type(2) {
+    animation-delay: calc(var(--time) / 5 * 2);
+  }
+  h1 div span:nth-of-type(3) {
+    animation-delay: calc(var(--time) / 5 * 3);
+  }
+  h1 div span:nth-of-type(4) {
+    animation-delay: calc(var(--time) / 5 * 1);
+  }
+  h1 div span:nth-of-type(5) {
+    animation-delay: calc(var(--time) / 5 * 4);
+  }
+
+  @keyframes BiggieSmalls {
+    0% {
+      font-weight: 100;
+      opacity: 0.8;
+    }
+    75% {
+      opacity: 1;
+    }
+    100% {
+      font-weight: 900;
+      opacity: 0.7;
+    }
+  }
+
   section {
     display: flex;
-    flex-direction: flex;
-    align-items: center;
-    gap: var(--reg-space);
-  }
+    flex-direction: column;
+    gap: 3em;
+    margin-top: 80vh;
+    padding: var(--reg-space);
+    z-index: 66;
+  } 
 
   .star {
     display: none;
   }
 
-  h1 {
-    /* font-family: "Rosemode"; */
-    font-family: "Thernaly";
-    font-size: var(--h1-size);
-    text-transform: uppercase;
-    font-weight: 200;
+  section p:first-of-type {
+    animation: hello-its-me 1.5s ease-in-out forwards;
+    animation-timeline: scroll();
+    animation-range: 0vh 40vh;
     display: flex;
-    justify-content: center;
-    text-shadow: 2px 3px 18px var(--dark);
-    z-index: 80;
+    width: 15em;
   }
 
-  section {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    padding: var(--reg-space);
-    position: relative;
-    z-index: 66;
-  }
-
-  article {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    gap: var(--reg-space);
-    justify-content: center;
-    justify-items: center;
-  }
-
-  article p:first-of-type {
-    background: var(--see-through-dark);
-    box-shadow: var(--shadow);
-    border-radius: var(--s-radius);
-    display: flex;
-    width: 18em;
+  @keyframes hello-its-me {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      font-size: 20px;
+    }
   }
 
   section a {
-    background: var(--see-through-dark);
-    border: solid var(--dark) 1px;
-    border-radius: var(--s-radius);
     display: flex;
     justify-content: center;
+    gap: 20px;
+    opacity: 0.8;
     padding: var(--reg-space);
     text-decoration: none;
-    width: 9em;
+    transition: 0.4s;
+    width: max-content;
+
   }
 
   section a:hover,
   section a:focus {
-    background: var(--see-through-dark);
-    border: none;
-    box-shadow: var(--shadow);
-    transition: 0 4s;
+    scale: 1.02;
+    opacity: 1;
+    transform: translateX(25px);
   }
 
-  article p,
-  article a {
+  section a {
+    align-self: end;
+    height: max-content;
+    overflow: hidden;
+    position: relative;
+  }
+
+  section a strong {
+    font-size: clamp(2em, 10vw, 10em);
+    text-transform: uppercase;
+  }
+
+  section a:last-of-type strong svg {
+    width: clamp(1.5em, 10vw, 2em);
+    height: 0.9em;
+  }
+  section p,
+  section a {
     padding: calc(var(--reg-space) / 2);
     margin: calc(var(--reg-space) / 2);
   }
@@ -192,9 +280,9 @@
     align-items: center;
     backdrop-filter: blur(90px);
     border-top: solid 1px var(--dark);
-    bottom: 0;
     display: flex;
     flex-direction: row;
+    height: 3.5em;
     justify-content: space-between;
     left: 0;
     position: absolute;
@@ -310,103 +398,6 @@
       position: absolute;
       top: 27em;
       left: 60em;
-    }
-  }
-
-  @media (min-width: 1000px) {
-    article {
-      display: grid;
-      gap: 20px;
-      grid-template-columns: 1.5fr 0.5fr;
-      grid-template-rows: 0 3.5fr;
-      width: max-content;
-    }
-
-    article p:first-of-type {
-      align-self: start;
-      grid-area: 2 / 1 / 3 / 2;
-      height: 6em;
-      text-align: center;
-      width: 40em;
-    }
-
-     article a:first-of-type {
-      align-self: end;
-      grid-area: 3 / 1 / 4 / 2;
-      height: 10em;
-      overflow: hidden;
-      position: relative;
-      width: 40em;
-    }
-    article a:last-of-type {
-      align-self: end;
-      grid-area: 2 / 2 / 4 / 3;
-      height: 20em;
-      overflow: hidden;
-      position: relative;
-      width: 15em;
-      }
-      
-    article a:first-of-type strong {
-      font-size: 148px;
-      text-transform: uppercase;
-    }
-
-    article a:last-of-type strong {
-      align-items: center;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      font-size: 118px;
-      text-transform: uppercase;
-      justify-content: center;
-    }
-
-    article a:last-of-type strong svg {
-      width: 72px;
-      height: auto;
-    } 
-
-    @keyframes BiggieSmalls {
-      0% {
-        font-size: 40px;
-        font-weight: 100;
-        opacity: 0.8;
-      }
-      75% {
-        opacity: 1;
-      }
-      100% {
-        font-size: 170px;
-        font-weight: 900;
-        opacity: 0.7;
-      }
-    }
-
-
-    strong span {
-      --time: 3s;
-      animation: BiggieSmalls 4s infinite ease-in-out;
-      display: inline-block;
-    }
-
-    article a:first-of-type strong span:nth-of-type(1), article a:last-of-type strong span:nth-of-type(1) {
-      animation-delay: calc(var(--time) / 5 * 0);
-    }
-    article a:first-of-type strong span:nth-of-type(2), article a:last-of-type strong span:nth-of-type(2) {
-      animation-delay: calc(var(--time) / 5 * 1);
-    }
-    article a:first-of-type strong span:nth-of-type(3), article a:last-of-type strong span:nth-of-type(3) {
-      animation-delay: calc(var(--time) / 5 * 2);
-    }
-    article a:first-of-type strong span:nth-of-type(4), article a:last-of-type strong span:nth-of-type(4) {
-      animation-delay: calc(var(--time) / 5 * 3);
-    }
-    article a:first-of-type strong span:nth-of-type(5), article a:last-of-type strong span:nth-of-type(5) {
-      animation-delay: calc(var(--time) / 5 * 4);
-    }
-    article a:first-of-type strong span:nth-of-type(6), article a:last-of-type strong span:nth-of-type(6) {
-      animation-delay: calc(var(--time) / 5 * 5);
     }
   }
 </style>
