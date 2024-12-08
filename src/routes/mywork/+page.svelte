@@ -14,8 +14,9 @@
         <img src="/images/fabrique.png" alt="fabrique" />
     </div>
     <div class="container2">
-        <p></p>
+        <p>An infinite canvas for Qatar Museums, created as part of a project for Fabrique.</p>
         <a href="https://github.com/Hadil66/fabrique" target="_blank">GitHub</a>
+        <a href="" target="_blank">Live URL</a>
       <ul>
         <li>Sveltekit</li>
         <li>Masonry</li>
@@ -30,8 +31,9 @@
         <img src="/images/squadpage2.png" alt="squadpage 2" />
     </div>
     <div class="container2">
-        <p></p>
+        <p>A squadpage with Sveltekit.</p>
         <a href="https://github.com/Hadil66/your-tribe-for-life-squad-page" target="_blank">GitHub</a>
+        <a href="" target="_blank">Live URL</a>
       <ul>
         <li>Sveltekit</li>
         <li>Directus</li>
@@ -43,9 +45,10 @@
         <h2>Profilecard 2</h2>
         <img src="/images/profilecard2.png" alt="profilecard 2" />
     </div>
-        <p></p>
-        <div class="container2">
+    <div class="container2">
+          <p>A profilecard with Sveltekit.</p>
         <a href="https://github.com/Hadil66/your-tribe-for-life-profile-card" target="_blank">GitHub</a>
+        <a href="" target="_blank">Live URL</a>
       <ul>
         <li>Sveltekit</li>
         <li>JavaScript Animations</li>
@@ -58,9 +61,10 @@
         <h2>DPI: TNO</h2>
         <img src="/images/dpi.png" alt="dpi" />
     </div>
-        <p></p>
-        <div class="container2">
+    <div class="container2">
+          <p>A data-driven, interactive tool that transforms TNO's static infographic into a dynamic environment.</p>
         <a href="https://github.com/Hadil66/proof-of-concept" target="_blank">GitHub</a>
+        <a href="" target="_blank">Live URL</a>
       <ul>
         <li>EJS</li>
         <li>NodeJS</li>
@@ -74,9 +78,10 @@
         <h2>Tumi Mundo</h2>
         <img src="/images/tumimundo.png" alt="tumi mundo" />
     </div>
-        <p></p>
-        <div class="container2">
-        <a href="https://github.com/Hadil66/Pleasurable-UI" target="_blank">GitHub</a>
+    <div class="container2">
+      <p>An accessible interactive application with a user-friendly interface, enhanced through the principle of progressive enhancement for a client.</p>
+      <a href="https://github.com/Hadil66/Pleasurable-UI" target="_blank">GitHub</a>
+      <a href="" target="_blank">Live URL</a>
       <ul>
         <li>EJS</li>
         <li>NodeJS</li>
@@ -90,9 +95,10 @@
         <h2>Profilecard 1</h2>
         <img src="/images/profilecard1.png" alt="profilecard 1" />
     </div>
-        <p></p>
-        <div class="container2">
+    <div class="container2">
+          <p>A profilecard built with Node, Express, and EJS, based on a REST API using JSON.</p>
         <a href="https://github.com/Hadil66/connect-your-tribe-profile-card" target="_blank">GitHub</a>
+        <a href="" target="_blank">Live URL</a>
       <ul>
         <li>EJS</li>
         <li>NodeJS</li>
@@ -105,9 +111,10 @@
         <h2>Label A</h2>
         <img src="/images/labela.png" alt="label a" />
     </div>
-        <p></p>
-        <div class="container2">
+    <div class="container2">
+          <p>A responsive team page designed to embody Label A's refreshed brand identity.</p>
         <a href="https://github.com/Hadil66/Label-A-teampagina" target="_blank">GitHub</a>
+        <a href="" target="_blank">Live URL</a>
       <ul>
         <li>Accessibility</li>
         <li>Responsive</li>
@@ -120,9 +127,10 @@
             <h2>Funda</h2>
             <img src="/images/funda.png" alt="funda" />
         </div>
-        <p></p>
         <div class="container2">
+          <p>A redesign of Funda's 'saved houses' page.</p>
         <a href="https://github.com/Hadil66/the-client-website" target="_blank">GitHub</a>
+        <a href="" target="_blank">Live URL</a>
       <ul>
         <li>Accessibility</li>
         <li>Responsive</li>
@@ -156,13 +164,20 @@
     border-radius: var(--s-radius);
     box-shadow: var(--shadow);
     display: flex;
-    height: 18em;
-    list-style-type: "";
+    flex-direction: column;
+    width: 20em;
     margin: var(--reg-space) 0 var(--reg-space) 0;
     padding: var(--reg-space);
-    width: 80vw;
-    z-index: 78;
   }
+@media (width > 680px) { 
+  .work {
+    flex-direction: row;
+    height: 18em;
+    list-style-type: "";    
+    width: 37em;
+  }
+
+}
   
   .container1 {
     display: flex;
@@ -176,22 +191,34 @@
   .container2 {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
   }
 
   .work p {
+    height: 2em;
+    margin: 0 0 2em 0;
+  }
+
+  .work a {
+    font-weight: bold;
+    width: max-content;
+  }
+
+  .work a:hover {
+    border-bottom: solid 1px var(--light);
   }
 
   .work ul {
-    padding: 0;
     display: flex;
     flex-wrap: wrap;
+    gap: 0.5em;
+    margin: 2em 0 0 0;
+    padding: 0;
   }
   .work li {
     border: solid 1px;
     border-radius: 50px;
     list-style-type: "";
-    margin: calc(var(--reg-space) / 5);
     padding: calc(var(--reg-space) / 3);
     width: max-content;
   }

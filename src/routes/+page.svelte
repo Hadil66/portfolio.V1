@@ -119,6 +119,10 @@
 </footer>
 
 <style>
+  li {
+    list-style-type: "";
+  }
+
   header {
     align-items: center;
     animation: header;
@@ -249,6 +253,9 @@
 
   section a {
     align-self: end;
+    animation: show 1.5s ease-in-out forwards;
+    animation-timeline: scroll();
+    animation-range: 0vh 60vh;
     height: max-content;
     overflow: hidden;
     position: relative;
@@ -259,10 +266,20 @@
     text-transform: uppercase;
   }
 
+  @keyframes show {
+    0% {opacity: 0;}
+    100% {opacity: 0.8;}
+  }
+  
+  section a:first-of-type span:nth-of-type(2) {
+    margin-right: 0.3em;
+  }   
+
   section a:last-of-type strong svg {
     width: clamp(1.5em, 10vw, 2em);
     height: 0.9em;
   }
+
   section p,
   section a {
     padding: calc(var(--reg-space) / 2);
@@ -295,10 +312,6 @@
     display: flex;
     margin: 0;
     padding: 0;
-  }
-
-  li {
-    list-style-type: "";
   }
 
   footer svg {
