@@ -19,7 +19,7 @@
           Fabrique.
         </p>
         <a href="https://github.com/Hadil66/fabrique" target="_blank">GitHub</a>
-        <a href="" target="_blank">Live URL</a>
+        <a href="https://fabrique.vercel.app/" target="_blank">Live URL</a>
         <ul>
           <li>Sveltekit</li>
           <li>Masonry</li>
@@ -39,7 +39,7 @@
           href="https://github.com/Hadil66/your-tribe-for-life-squad-page"
           target="_blank">GitHub</a
         >
-        <a href="" target="_blank">Live URL</a>
+        <a href="https://your-tribe-for-life-squad-page-beta.vercel.app/" target="_blank">Live URL</a>
         <ul>
           <li>Sveltekit</li>
           <li>Directus</li>
@@ -57,7 +57,7 @@
           href="https://github.com/Hadil66/your-tribe-for-life-profile-card"
           target="_blank">GitHub</a
         >
-        <a href="" target="_blank">Live URL</a>
+        <a href="https://your-tribe-for-life-profile-card-xi.vercel.app/" target="_blank">Live URL</a>
         <ul>
           <li>Sveltekit</li>
           <li>JavaScript Animations</li>
@@ -78,7 +78,7 @@
         <a href="https://github.com/Hadil66/proof-of-concept" target="_blank"
           >GitHub</a
         >
-        <a href="" target="_blank">Live URL</a>
+        <a href="https://proof-of-concept-jb4m.onrender.com/" target="_blank">Live URL</a>
         <ul>
           <li>EJS</li>
           <li>NodeJS</li>
@@ -101,7 +101,7 @@
         <a href="https://github.com/Hadil66/Pleasurable-UI" target="_blank"
           >GitHub</a
         >
-        <a href="" target="_blank">Live URL</a>
+        <a href="https://pleasurable-ui-1.onrender.com/" target="_blank">Live URL</a>
         <ul>
           <li>EJS</li>
           <li>NodeJS</li>
@@ -124,7 +124,6 @@
           href="https://github.com/Hadil66/connect-your-tribe-profile-card"
           target="_blank">GitHub</a
         >
-        <a href="" target="_blank">Live URL</a>
         <ul>
           <li>EJS</li>
           <li>NodeJS</li>
@@ -145,7 +144,7 @@
         <a href="https://github.com/Hadil66/Label-A-teampagina" target="_blank"
           >GitHub</a
         >
-        <a href="" target="_blank">Live URL</a>
+        <a href="https://hadil66.github.io/Label-A-teampagina/" target="_blank">Live URL</a>
         <ul>
           <li>Accessibility</li>
           <li>Responsive</li>
@@ -163,7 +162,7 @@
         <a href="https://github.com/Hadil66/the-client-website" target="_blank"
           >GitHub</a
         >
-        <a href="" target="_blank">Live URL</a>
+        <a href="https://lisavanmansom.github.io/look-and-feel-corporate-identity/" target="_blank">Live URL</a>
         <ul>
           <li>Accessibility</li>
           <li>Responsive</li>
@@ -227,8 +226,8 @@
   }
 
   .work p {
-    height: 2em;
-    margin: 0 0 2em 0;
+    height: max-content;
+    margin: 0;
   }
 
   .work a {
