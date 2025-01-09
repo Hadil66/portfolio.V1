@@ -122,7 +122,7 @@
   li {
     list-style-type: "";
   }
-
+  @supports (animation-timeline: scroll()) {
   header {
     align-items: center;
     animation: header;
@@ -136,6 +136,7 @@
     width: 100vw;
     z-index: 369;
   }
+}
 
   @keyframes header {
     from {
@@ -213,6 +214,7 @@
   .star {
     display: none;
   }
+  @supports (animation-timeline: scroll()) {
 
   section p:first-of-type {
     animation: hello-its-me 1.5s ease-in-out forwards;
@@ -221,7 +223,7 @@
     display: flex;
     width: 15em;
   }
-
+  }
   @keyframes hello-its-me {
     0% {
       opacity: 0;
@@ -250,8 +252,8 @@
     opacity: 1;
     transform: translateX(25px);
   }
-
-  section a {
+  @supports (animation-timeline: scroll()) {
+    section a {
     align-self: end;
     animation: show 1.5s ease-in-out forwards;
     animation-timeline: scroll();
@@ -260,7 +262,7 @@
     overflow: hidden;
     position: relative;
   }
-
+  }
   section a strong {
     font-size: clamp(2em, 10vw, 10em);
     text-transform: uppercase;
