@@ -131,6 +131,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 0.2em 0;
     position: fixed;
     top: 0;
     width: 100vw;
