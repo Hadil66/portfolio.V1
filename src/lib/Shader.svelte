@@ -122,6 +122,7 @@
         opacity: 0.3;
         position: fixed;
         right: 0;
+        top: 0;
         width: 100vw;
     }
 </style>
