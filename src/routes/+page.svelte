@@ -115,7 +115,7 @@
       </a>
     </li>
   </ul>
-  <a href="https://hadilslearningjournal.netlify.app/"><p>Learning journal</p></a>
+  <a href="https://myloveforweb.netlify.app/"><p>Learning journal</p></a>
 </footer>
 
 <style>
